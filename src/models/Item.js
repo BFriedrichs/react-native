@@ -5,14 +5,14 @@ import UUID from 'uuid';
 export default class Item {
 
   id: string;
-  description: string;
+  name: string;
 
-  constructor(description: string) {
+  constructor(name: string) {
     this.id = UUID.v4();
-    this.description = description;
+    this.name = name;
   }
 
   equals(item: Item): bool {
-    return this.description === item.description;
+    return this.name === item.name;
   }
 }

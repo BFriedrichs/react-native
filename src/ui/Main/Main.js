@@ -3,9 +3,13 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
-import ItemList from './ItemList';
-import Item from '../models/Item';
-import ItemStore from '../stores/ItemStore';
+import Styles from './styles'
+
+import ItemList from '../ItemList';
+import BottomBar from '../BottomBar';
+
+import ItemActions from '../../actions/ItemActions'
+import ItemStore from '../../stores/ItemStore';
 
 export default class Main extends Component {
 
@@ -16,25 +20,23 @@ export default class Main extends Component {
   state = {
     items: ItemStore.getItems()
   }
-  i = 1
-  buttonPress() {
-    this.i+=1
-    ItemStore.storeItem(new Item('test' + this.i));
+
+  addItem() {
+    ItemStore.storeItem(ItemActions.createItemWithName('test'));
     this.setState({items: ItemStore.getItems()});
   }
 
   render() {
     const { navigate } = this.props.navigation
-  
+    
     return (
-      <View>
-        <Button
-          title="Add Item!"
-          onPress={this.buttonPress.bind(this)}
-        />
-
+      <View style={Styles.wrapper}>
         <ItemList
           data={this.state.items}
+        />
+
+        <BottomBar
+          handleAddButtonClicked={this.addItem.bind(this)}
         />
       </View>
     );

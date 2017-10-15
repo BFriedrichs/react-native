@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 
 import { StackNavigator } from 'react-navigation';
 
-import Main from './src/ui/Main'
+import Main from './src/ui/Main/Main'
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +17,6 @@ export default class App extends React.Component {
 
 const AppNavigator = StackNavigator({
   Home: {
-    screen: Main,
+    screen: Main
   }
 });

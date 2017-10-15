@@ -29,9 +29,9 @@ class ItemStore {
   storeItem(item: Item) {
     if(!this.items.some(e=>e.equals(item))) {
       this.items.push(item);
+      // this.save();
     }
   }
-
 
   save() {
     try {

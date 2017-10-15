@@ -32,6 +32,7 @@
 
 ; Get this pesky stuff outta here
 .*/node_modules/react-navigation/.*
+.*/node_modules/react-native-side-menu/.*
 
 
 [include]
@@ -52,6 +53,7 @@ munge_underscores=true
 
 ; We still want to use navigation
 module.name_mapper='^react-navigation$' -> 'emptyObject'
+module.name_mapper='^react-native-side-menu$' -> 'emptyObject'
 
 module.name_mapper='^[./a-zA-Z0-9$_-]+\.\(bmp\|gif\|jpg\|jpeg\|png\|psd\|svg\|webp\|m4v\|mov\|mp4\|mpeg\|mpg\|webm\|aac\|aiff\|caf\|m4a\|mp3\|wav\|html\|pdf\)$' -> 'RelativeImageStub'
 
