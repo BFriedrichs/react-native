@@ -7,16 +7,19 @@ class ItemStore {
 
   _STORAGE_NAME = '@ItemStore';
 
-  items: Array<Item>;
+  storage: [{
+    item: Item,
+    count: number
+  }];
 
   constructor() {
-    this.items = [];
+    this.storage = [];
 
     AsyncStorage.getItem(`${this._STORAGE_NAME}:items`, (error, result) => {
       if(!error && result) {
         try {
-          const loadedItems: Item[] = JSON.parse(result);
-          this.items = loadedItems;
+          const loadedItems = JSON.parse(result);
+          this.storage = loadedItems;
         } catch(e) {
           console.error("Couldn't parse old items");
         }
@@ -26,23 +29,36 @@ class ItemStore {
     });
   }
 
-  storeItem(item: Item) {
-    if(!this.items.some(e=>e.equals(item))) {
-      this.items.push(item);
-      // this.save();
+  addItem(item: Item) {
+    let storedItem = this.storage.find(e=>e.item.equals(item))
+
+    if(storedItem) {
+      storedItem.count += 1;
+    } else {
+      this.storage.push({
+        item: item,
+        count: 1
+      });
     }
+
+    // this.save();
   }
 
   save() {
     try {
-        AsyncStorage.setItem(`${this._STORAGE_NAME}:items`, JSON.stringify(this.items));
+        AsyncStorage.setItem(`${this._STORAGE_NAME}:items`, JSON.stringify(this.storage));
       } catch (error) {
         console.error("Couldn't save items.");
       }
   }
 
+  getItemWithId(id: string): ?Item {
+    const storedItem = this.storage.find(e=>e.item.id == id);
+    return !!storedItem ? storedItem.item : null;
+  }
+
   getItems() {
-    return this.items;
+    return this.storage;
   }
 }
 

@@ -6,7 +6,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   background: {
     backgroundColor: '#f1f1f1',
-    height: 50,
+    height: 56,
     borderTopWidth: 1,
     borderTopColor: '#e2e2e2',
     padding: 10,
@@ -14,6 +14,6 @@ export default StyleSheet.create({
     justifyContent: 'space-between'
   },
   barItem: {
-
+    height: 56
   }
 });

@@ -16,13 +16,16 @@ export default class Main extends Component {
   static navigationOptions = {
     title: 'Home'
   }
-
   state = {
     items: ItemStore.getItems()
   }
 
   addItem() {
-    ItemStore.storeItem(ItemActions.createItemWithName('test'));
+    ItemActions.addItemWithName('test');
+    this.setState({items: ItemStore.getItems()});
+  }
+  increaseItemCount(itemId: string) {
+    ItemActions.increaseCountForId(itemId);
     this.setState({items: ItemStore.getItems()});
   }
 
@@ -32,6 +35,7 @@ export default class Main extends Component {
     return (
       <View style={Styles.wrapper}>
         <ItemList
+          handleIncreaseButtonClicked={this.increaseItemCount.bind(this)}
           data={this.state.items}
         />
 

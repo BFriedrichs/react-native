@@ -1,13 +1,22 @@
 // @flow
 
 import Item from '../models/Item'
+import ItemStore from '../stores/ItemStore';
 
 class ItemActions {
-  static i = 0
-  static createItemWithName(name: string): Item {
-    ItemActions.i+=1;
-    return new Item(name+ItemActions.i);
+  i = 0
+  addItemWithName(name: string) {
+    this.i+=1;
+    ItemStore.addItem(new Item(name+this.i));
   }
+
+  increaseCountForId(itemId: string) {
+    const item = ItemStore.getItemWithId(itemId);
+    if(item) {
+      ItemStore.addItem(item);
+    }
+  }
+
 }
 
-export default ItemActions
+export default new ItemActions()

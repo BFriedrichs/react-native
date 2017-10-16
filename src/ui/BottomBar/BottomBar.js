@@ -12,7 +12,6 @@ export default class BottomBar extends Component {
         <Text style={Styles.barItem} ></Text>
         <Text style={Styles.barItem} ></Text>
         <Button title="Add Item" onPress={this.props.handleAddButtonClicked} style={Styles.barItem} />
-        
       </View>
 
     )

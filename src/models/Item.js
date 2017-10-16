@@ -6,7 +6,7 @@ export default class Item {
 
   id: string;
   name: string;
-
+  
   constructor(name: string) {
     this.id = UUID.v4();
     this.name = name;
