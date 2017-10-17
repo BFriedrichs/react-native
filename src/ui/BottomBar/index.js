@@ -1,2 +1,2 @@
-import BottomBar from './BottomBar';
-export default BottomBar;
+import BottomBar from './BottomBar'
+export default BottomBar

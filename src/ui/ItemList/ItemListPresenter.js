@@ -1,14 +1,14 @@
 // @flow
 
-import React, { Component } from 'react';
-import { StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity } from 'react-native';
-import Swipeable from 'react-native-swipeable';
+import React, { Component } from 'react'
+import { StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity } from 'react-native'
+import Swipeable from 'react-native-swipeable'
 
-import Styles from './styles';
+import Styles from './styles'
 
-import Colors from '../Colors';
+import Colors from 'src/ui/Colors'
 
-import Item from '../../models/Item';
+import Item from 'src/models/Item'
 import IonIcon from 'react-native-vector-icons/Ionicons'
 
 class ItemListItem extends Component {
@@ -21,49 +21,50 @@ class ItemListItem extends Component {
   )
 
   render() {
-    const storedItem = this.props.data;
+    const item = this.props.item
 
     return (
       <Swipeable rightContent={this.deleteButton}>
         <View style={Styles.listItem}>
           <View>
-            <Text>{storedItem.count}x</Text>
+            <Text>{item.count}x</Text>
             <Text style={Styles.text}>
-              {storedItem.item.name}
+              {item.name}
             </Text>
           </View>
-          <TouchableOpacity onPress={this.props.handleIncreaseButtonClicked.bind(this, storedItem.item.id)} >
+          <TouchableOpacity onPress={this.props.onIncreaseClick.bind(this, item.name)} >
             <IonIcon name="ios-add-circle-outline" size={30} color={Colors.Blue} />
           </TouchableOpacity>
         </View>
       </Swipeable>
-    );
+    )
   }
 }
 
 export default class ItemList extends Component {
-  renderItem(element: {item: {item: Item, count: number}}) {
+  renderItem(element: {item: Item}) {
     return (
       <ItemListItem 
-        data={element.item} 
-        handleIncreaseButtonClicked={this.props.handleIncreaseButtonClicked}
+        item={element.item} 
+        onIncreaseClick={this.props.onIncreaseClick}
       />
-    );
+    )
   }
+  
 
-  keyExtractor(storedItem: {item: Item}, index: number) {
-    return storedItem.item.id;
+  keyExtractor(item: Item, index: number) {
+    return item.id
   }
 
   render() {
     return (
       <FlatList 
-        data={this.props.data}
-        extraData={this.props.data.map(e=>e.item.id)}
+        data={this.props.items}
+        extraData={this.props.items}
         renderItem={this.renderItem.bind(this)}
         keyExtractor={this.keyExtractor}
       />
-    );
+    )
   }
 }
 

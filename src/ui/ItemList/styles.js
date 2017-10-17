@@ -1,9 +1,9 @@
 // @flow 
 
-import React from 'react';
-import { StyleSheet } from 'react-native';
+import React from 'react'
+import { StyleSheet } from 'react-native'
 
-import Colors from '../Colors';
+import Colors from 'src/ui/Colors'
 
 export default StyleSheet.create({
   listItem: {
@@ -30,4 +30,4 @@ export default StyleSheet.create({
   deleteText: {
     color: Colors.White
   }
-});
+})

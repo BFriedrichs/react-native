@@ -1,2 +1,2 @@
-import ItemList from './ItemList';
-export default ItemList;
+import ItemList from './ItemListController'
+export default ItemList
