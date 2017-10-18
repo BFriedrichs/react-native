@@ -6,16 +6,12 @@ import { StyleSheet } from 'react-native'
 import Colors from '../Colors'
 
 export default StyleSheet.create({
-  wrapper: {
-
+  tag: {
+    padding: 5,
+    backgroundColor: Colors.Orange,
+    borderRadius: 5
   },
-  nameInput: {
-
-  },
-  inputStyle: {
-    color: Colors.FontBlack
-  },
-  submitButton: {
-    marginTop: 50
+  text: {
+    color: '#fff'
   }
 })

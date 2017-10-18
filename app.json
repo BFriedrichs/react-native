@@ -1,7 +1,7 @@
 {
+  "name": "shopapp",
+  "displayName": "shopapp",
   "expo": {
-    "sdkVersion": "21.0.0",
-    "slug": "shopapp",
-    "name": "shopapp"
+    "sdkVersion": "21.0.0"
   }
 }

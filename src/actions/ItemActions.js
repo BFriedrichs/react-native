@@ -1,10 +1,26 @@
 // @flow
 
 class ItemActions {
-  addItem(name: string) {
+  addItem(name: string, withData: any) {
     return {
       type: 'ADD_ITEM',
-      text: name
+      data: {
+        name: name,
+        withData: withData
+      }
+    }
+  }
+  incrementItem(id: string) {
+    return {
+      type: 'INCREMENT_ITEM',
+      id: id
+    }
+  }
+  editItem(id: string, data: any) {
+    return {
+      type: 'EDIT_ITEM',
+      id: id,
+      data: data
     }
   }
 }

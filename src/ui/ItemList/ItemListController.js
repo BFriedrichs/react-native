@@ -17,8 +17,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onIncreaseClick: name => {
-      dispatch(ItemActions.addItem(name))
+    onIncreaseClick: id => {
+      dispatch(ItemActions.incrementItem(id))
     }
   }
 }

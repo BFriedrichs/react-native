@@ -8,6 +8,7 @@ import Styles from './styles'
 
 import Colors from 'src/ui/Colors'
 
+import Tag from '../Tag'
 import Item from 'src/models/Item'
 import IonIcon from 'react-native-vector-icons/Ionicons'
 
@@ -23,17 +24,24 @@ class ItemListItem extends Component {
   render() {
     const item = this.props.item
 
+    let storeTags = item.stores.map((store, i) => 
+      <Tag key={i} text={store} />
+    )
+
     return (
       <Swipeable rightContent={this.deleteButton}>
         <View style={Styles.listItem}>
           <View>
             <Text>{item.count}x</Text>
-            <Text style={Styles.text}>
+            <Text color={Colors.FontGrey} style={Styles.text}>
               {item.name}
             </Text>
           </View>
-          <TouchableOpacity onPress={this.props.onIncreaseClick.bind(this, item.name)} >
-            <IonIcon name="ios-add-circle-outline" size={30} color={Colors.Blue} />
+          <View>
+            {storeTags}
+          </View>
+          <TouchableOpacity onPress={this.props.onIncreaseClick.bind(this, item.id)} >
+            <IonIcon name="ios-add-circle-outline" size={35} color={Colors.Blue} />
           </TouchableOpacity>
         </View>
       </Swipeable>

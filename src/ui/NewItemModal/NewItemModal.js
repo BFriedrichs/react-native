@@ -17,7 +17,8 @@ class NewItemModal extends Component {
   }
 
   state = {
-      itemName: ''
+      itemName: '',
+      storeName: ''
   }
 
   render() {
@@ -28,17 +29,31 @@ class NewItemModal extends Component {
         <View style={Styles.nameInput} >
           <FormLabel>Item Name</FormLabel>
           <FormInput
+            inputStyle={Styles.inputStyle}
             onChangeText={(text) => this.setState({itemName: text})}
             value={this.state.itemName}/>
+        </View>
+        <View style={Styles.nameInput} >
+          <FormLabel>Store Name</FormLabel>
+          <FormInput
+            inputStyle={Styles.inputStyle}
+            onChangeText={(text) => this.setState({storeName: text})}
+            value={this.state.storeName}/>
         </View>
         <Button
           large
           icon={{name: 'check-circle'}}
           backgroundColor={Colors.Blue}
           title='SUBMIT'
+          style={Styles.submitButton}
           disabled={this.state.itemName == '' ? true : false}
           onPress={()=>{
-            this.props.dispatch(ItemActions.addItem(this.state.itemName))
+            let data = {}
+            if(this.state.storeName != '') {
+              data.stores = this.state.storeName.split(' ')
+            }
+
+            this.props.dispatch(ItemActions.addItem(this.state.itemName, data))
             goBack()
           }}
           />
