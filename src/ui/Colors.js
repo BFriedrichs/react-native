@@ -13,5 +13,6 @@ export default {
   LightGrey: '#bdc6cf',
   FontBlack: '#333333',
   FontGrey: '#454545',
-  FontLightGrey: '#666666'
+  FontLightGrey: '#666666',
+  Disabled: '#dadee0'
 }

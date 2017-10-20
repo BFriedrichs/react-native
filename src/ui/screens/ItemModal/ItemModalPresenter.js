@@ -56,7 +56,7 @@ class ItemModal extends Component {
     return(
       <View style={Styles.wrapper}>
         <View style={Styles.wrapper}>
-          <ScrollView>
+          <ScrollView keyboardShouldPersistTaps='handled'>
             <View style={Styles.nameInput} >
               <FormLabel>Item Name</FormLabel>
               <FormInput

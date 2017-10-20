@@ -41,5 +41,8 @@ export default StyleSheet.create({
   },
   inputStyle: {
     color: Colors.FontGrey
+  },
+  disabled: {
+    backgroundColor: Colors.Disabled
   }
 })

@@ -49,7 +49,11 @@ export default class TagInput extends Component {
 
     matchingTags = [...this.state.currentTags, ...matchingTags]
     const displayTags = matchingTags.length > 0 ? 'flex' : 'none'
-
+    const disabledTagButton = this.state.currentInput == ''
+    let tagButtonStyle = [Styles.addButtonTag]
+    if(disabledTagButton) {
+      tagButtonStyle.push(Styles.disabled)
+    }
     return (
       <View>
         <FormLabel>{this.props.name}</FormLabel>
@@ -62,9 +66,9 @@ export default class TagInput extends Component {
             returnKeyType={'done'} />
             <TouchableOpacity
                 style={Styles.addButton}
-                disabled={this.state.currentInput == '' ? true : false}
+                disabled={disabledTagButton}
                 onPress={this.chooseTag.bind(this, this.state.currentInput)}>
-              <Tag style={Styles.addButtonTag} text="Add" />
+              <Tag style={tagButtonStyle} text="Add" />
             </TouchableOpacity>
         </View>
         <View style={[{display: displayTags}, Styles.tagContainer]}>
