@@ -2,18 +2,16 @@
 
 import Item from 'src/models/Item'
 
-const ItemReducer = (state: Array<Item> = [], action: {type: string, id: string, data: any}) => {
+const ItemReducer = (state: Array<Item> = [], action: {type: string, id: string, data: ItemData}) => {
   switch(action.type) {
     case 'ADD_ITEM':
-      let currItem: Item = (state.find(e=>e.name==action.data.name): any)
-      if(!currItem) {
-        const additionalData = action.data.withData || {}
-
+      if(action.data.name) {
         return [
           ...state,
-          new Item(action.data.name, additionalData)
+          new Item(action.data.name, action.data)
         ]
       }
+      return state
 
     case 'INCREMENT_ITEM': 
       let incItem: Item = (state.find(e=>e.id==action.id): any)
@@ -26,22 +24,30 @@ const ItemReducer = (state: Array<Item> = [], action: {type: string, id: string,
           return Object.assign(incItem, {count: incItem.count + 1})
         })
       }
+      return state
 
-    case 'EDIT_ITEM':
-      let editItem: Item = (state.find(e=>e.name==action.data.name): any)
-      if(editItem) {
+    case 'UPDATE_ITEM':
+      let updateItem: Item = (state.find(e=>e.id==action.id): any)
+      if(updateItem) {
         return state.map((item: Item, index) => {
-          if(!item.equals(editItem)) {
+          if(!item.equals(updateItem)) {
             return item
           }
 
           for(var key in action.data) {
-            Object.assign(editItem, {[key]: action.data[key]})
+            Object.assign(updateItem, {[key]: action.data[key]})
           }
-          return editItem
+          return updateItem
         })
       }
-
+      return state
+    
+    case 'DELETE_ITEM':
+      const deleteItem: Item = (state.find(e=>e.id==action.id): any)
+      if(deleteItem) {
+        return state.filter(item => item.id != action.id)
+      }
+      return state
     default: 
       return state
   }

@@ -10,8 +10,8 @@ import { createStore } from 'redux'
 
 import Reducer from 'src/reducers'
 
-import Main from 'src/ui/Main'
-import NewItemModal from 'src/ui/NewItemModal'
+import Main from 'src/ui/screens/Main'
+import ItemModal from 'src/ui/screens/ItemModal'
 
 const store = createStore(Reducer)
 
@@ -27,7 +27,9 @@ export default class App extends React.Component {
 
 const AppNavigator = StackModalNavigator({
   Home: { screen: Main },
-  NewItem: { screen: NewItemModal }
+  ItemModal: { 
+    screen: ItemModal
+  },
 }, {
   headerMode: 'none',
   initialRouteName: 'Home'

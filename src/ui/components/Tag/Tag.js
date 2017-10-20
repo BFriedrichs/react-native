@@ -8,8 +8,8 @@ import Styles from './styles'
 export default class Tag extends Component {
   render() {
     return (
-      <View style={Styles.tag} >
-        <Text style={Styles.text} >{this.props.text}</Text>
+      <View style={[Styles.tag, this.props.style]} >
+        <Text style={[Styles.text, this.props.font]} >{this.props.text}</Text>
       </View>
     )
   }

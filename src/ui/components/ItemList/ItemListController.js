@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import ItemList from './ItemListPresenter'
+import ItemListPresenter from './ItemListPresenter'
 import ItemActions from 'src/actions/ItemActions'
 
 const getCurrentItems = (items, filter) => {
@@ -19,13 +19,16 @@ const mapDispatchToProps = dispatch => {
   return {
     onIncreaseClick: id => {
       dispatch(ItemActions.incrementItem(id))
+    },
+    deleteItem: id => {
+      dispatch(ItemActions.deleteItem(id))
     }
   }
 }
 
-const VisibleItemList = connect(
+const ItemListController = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ItemList)
+)(ItemListPresenter)
 
-export default VisibleItemList
+export default ItemListController

@@ -10,6 +10,8 @@ export default {
   Purple: '#5856d6',
   Pink: '#ff2d55',
   White: '#fff',
+  LightGrey: '#bdc6cf',
   FontBlack: '#333333',
-  FontGrey: '#454545'
+  FontGrey: '#454545',
+  FontLightGrey: '#666666'
 }

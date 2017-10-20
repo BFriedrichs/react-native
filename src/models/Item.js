@@ -7,19 +7,21 @@ export default class Item {
   id: string
   name: string
   count: number
-  stores: Array<string>
   tags: Array<string>
 
-  constructor(name: string, withData: any) {
+  constructor(name: string, data: ItemData) {
     this.id = UUID.v4()
     this.name = name
     
-    this.count = withData.count || 1
-    this.stores = withData.stores || []
-    this.tags = withData.tags || []
+    this.count = data.count || 1
+    this.tags = data.tags || []
+  }
+
+  hasTags(): bool {
+    return this.tags.length > 0
   }
 
   equals(item: Item): bool {
-    return this.name === item.name
+    return this.id === item.id
   }
 }
