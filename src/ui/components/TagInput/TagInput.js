@@ -19,7 +19,7 @@ export default class TagInput extends Component {
   }
 
   chooseTag(tag: string) {
-    if(!(this.state.currentTags.includes(tag))) {
+    if(tag != '' && !(this.state.currentTags.includes(tag))) {
       this.setState({
         currentInput: '',
         currentTags: [...this.state.currentTags, tag]
@@ -62,6 +62,7 @@ export default class TagInput extends Component {
             returnKeyType={'done'} />
             <TouchableOpacity
                 style={Styles.addButton}
+                disabled={this.state.currentInput == '' ? true : false}
                 onPress={this.chooseTag.bind(this, this.state.currentInput)}>
               <Tag style={Styles.addButtonTag} text="Add" />
             </TouchableOpacity>

@@ -7,7 +7,8 @@ import Colors from 'src/ui/Colors'
 
 export default StyleSheet.create({
   wrapper: {
-
+    flex: 1,
+    justifyContent: 'space-between',
   },
   nameInput: {
 
@@ -15,7 +16,11 @@ export default StyleSheet.create({
   inputStyle: {
     color: Colors.FontBlack
   },
+  submitButtonContainer: {
+    marginLeft: 0,
+    marginRight: 0
+  },
   submitButton: {
-    marginTop: 50
+    height: 56
   }
 })
