@@ -5,3 +5,8 @@ declare type ItemData = {
     stores?: Array<string>,
     tags?: Array<string>,
 }
+
+declare type FilterData = {
+    search?: string,
+    tags?: Array<string>
+}

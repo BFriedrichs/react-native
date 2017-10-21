@@ -1,7 +1,8 @@
 // @flow
 
 import React, { Component } from 'react'
-import { StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity } from 'react-native'
+import { Platform, StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity, ScrollView } from 'react-native'
+import { SearchBar } from 'react-native-elements'
 import Swipeable from 'react-native-swipeable'
 import * as Animatable from 'react-native-animatable';
 
@@ -9,6 +10,7 @@ import Styles from './styles'
 
 import Colors from 'src/ui/Colors'
 
+import Welcome from '../Welcome'
 import Tag from '../Tag'
 import Item from 'src/models/Item'
 import IonIcon from 'react-native-vector-icons/Ionicons'
@@ -99,6 +101,7 @@ export default class ItemList extends Component {
   renderItem(element: {item: Item}) {
     return (
       <ItemListItem 
+        ref={element.item.id}
         deleteItem={this.props.deleteItem}
         editItem={this.editItem.bind(this, element.item)}
         item={element.item} 
@@ -112,15 +115,39 @@ export default class ItemList extends Component {
     return item.id
   }
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.refs.scrollView && this.refs.scrollView.scrollTo({ x: 0, y: 50, animated: false })
+    }, 0)
+  }
+
   render() {
+    if(this.props.items.length == 0 && !this.props.filter.isFiltered) {
+      return <Welcome />
+    }
     return (
-      <FlatList 
+      <ScrollView 
+        ref='scrollView'
         scrollEnabled={!this.state.isLocked}
-        data={this.props.items}
-        extraData={this.props.items}
-        renderItem={this.renderItem.bind(this)}
-        keyExtractor={this.keyExtractor}
-      />
+        contentContainerStyle={{flex: 1}}
+        style={{flex: 1}}
+      >
+        <SearchBar 
+          lightTheme
+          onChangeText={text => this.props.updateFilter({search: text})}
+          placeholder={'Search'}
+          containerStyle={{ backgroundColor: Colors.GreyBackground }}
+          inputStyle={{ color: Colors.FontGrey }}
+        />
+        <FlatList 
+          ref='list'
+          scrollEnabled={false}
+          data={this.props.items}
+          extraData={this.props.items}
+          renderItem={this.renderItem.bind(this)}
+          keyExtractor={this.keyExtractor}
+        />
+      </ScrollView>
     )
   }
 }

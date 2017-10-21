@@ -7,7 +7,7 @@ import Colors from 'src/ui/Colors'
 
 export default StyleSheet.create({
   background: {
-    backgroundColor: '#f1f1f1',
+    backgroundColor: Colors.White,
     height: 56,
     borderTopWidth: 1,
     borderTopColor: '#e2e2e2',

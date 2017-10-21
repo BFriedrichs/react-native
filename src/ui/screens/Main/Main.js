@@ -7,8 +7,8 @@ import Styles from './styles'
 
 import ItemList from 'src/ui/components/ItemList'
 import BottomBar from 'src/ui/components/BottomBar'
-
-import TagInput from 'src/ui/components/TagInput'
+import SideMenu from 'src/ui/components/SideMenu'
+import FilterMenu from 'src/ui/components/FilterMenu'
 
 export default class Main extends Component {
 
@@ -16,13 +16,32 @@ export default class Main extends Component {
     title: 'Home'
   }
 
+  state = {
+    isSideMenuVisible: false
+  }
+
+  toggleSideMenu() {
+    this.setState({isSideMenuVisible: !this.state.isSideMenuVisible})
+  }
+
   render() {
     return (
       <View style={Styles.wrapper}>
-        <ItemList 
-          navigation={this.props.navigation}
-        />
-        <BottomBar 
+        <View style={Styles.sideMenuWrapper}>
+          <SideMenu
+            title='Filter'
+            menu={(<FilterMenu />)}
+            visible={this.state.isSideMenuVisible}
+          >
+            <ItemList
+              navigation={this.props.navigation}
+            />
+          </SideMenu>
+          
+        </View>
+        
+        <BottomBar
+          toggleSideMenu={this.toggleSideMenu.bind(this)}
           navigation={this.props.navigation}
         />
       </View>

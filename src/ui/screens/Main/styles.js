@@ -7,5 +7,9 @@ export default StyleSheet.create({
   wrapper: {
     flex: 1,
     justifyContent: 'space-between'
+  },
+  sideMenuWrapper: {
+    flex: 1,
+    flexDirection: 'row'
   }
 })

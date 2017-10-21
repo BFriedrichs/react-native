@@ -8,13 +8,19 @@ import Styles from './styles'
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
 import FoundationIcon from 'react-native-vector-icons/Foundation'
 
-class BottomBar extends Component {
+export default class BottomBar extends Component {
+  state = {
+    isOpening: false
+  }
+
   render() {
     const { navigate } = this.props.navigation
     
     return (
       <View style={Styles.background} >
-        <TouchableOpacity onPress={()=>{}} >
+        <TouchableOpacity 
+          onPress={this.props.toggleSideMenu}
+        >
           <FoundationIcon 
             name="filter" 
             size={32} 
@@ -23,8 +29,12 @@ class BottomBar extends Component {
         </TouchableOpacity>
         <Text style={Styles.barItem} ></Text>
         <TouchableOpacity 
+          disabled={this.state.isOpening ? true : false}
           onPress={()=>{
+            this.setState({isOpening: true})
             navigate('ItemModalModal', {title: 'New Item'})
+            // disable the button for a bit so it cant be spam clicked
+            setTimeout(() => this.setState({isOpening: false}), 200)
           }} 
         >
           <MaterialIcon 
@@ -37,5 +47,3 @@ class BottomBar extends Component {
     )
   }
 }
-
-export default BottomBar

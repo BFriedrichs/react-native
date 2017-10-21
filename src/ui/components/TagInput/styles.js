@@ -6,12 +6,16 @@ import { StyleSheet } from 'react-native'
 import Colors from 'src/ui/Colors'
 
 export default StyleSheet.create({
+  container: {
+    marginRight: 20,
+    marginLeft: 20,
+  },
   inputWrapper: {
 
   },
   addButton: {
     position: 'absolute',
-    right: 16,
+    right: 0,
     margin: 4,
   },
   addButtonTag: {
@@ -20,9 +24,7 @@ export default StyleSheet.create({
     backgroundColor: Colors.Pink
   },
   tagContainer: {
-    margin: 8,
-    marginRight: 16,
-    marginLeft: 16,
+    marginTop: 8,
     padding: 4,
     borderColor: Colors.LightGrey,
     borderWidth: 1,
@@ -40,7 +42,10 @@ export default StyleSheet.create({
     backgroundColor: Colors.Pink
   },
   inputStyle: {
-    color: Colors.FontGrey
+    color: Colors.FontGrey,
+    height: 40,
+    borderBottomColor: Colors.Input,
+    borderBottomWidth: 1
   },
   disabled: {
     backgroundColor: Colors.Disabled
