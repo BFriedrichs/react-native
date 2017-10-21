@@ -10,11 +10,31 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: 'space-between',
   },
-  nameInput: {
-
+  scrollContainer: {
+    flexGrow: 1, 
+    flexDirection: 'column', 
+    justifyContent: 'center'
+  },
+  scrollItem: {
+    paddingBottom: 10
   },
   inputStyle: {
     color: Colors.FontBlack
+  },
+  countItem: {
+    marginTop: 20
+  },
+  countWrapper: {
+    marginLeft: 20,
+    marginRight: 20
+  },
+  countView: {
+    position: 'absolute',
+    right: 20,
+    top: 10,
+  },
+  countViewTag: {
+    backgroundColor: Colors.Blue
   },
   submitButtonContainer: {
     marginLeft: 0,
@@ -22,5 +42,9 @@ export default StyleSheet.create({
   },
   submitButton: {
     height: 56
+  },
+  modalContent: {
+    backgroundColor: Colors.White,
+    padding: 18
   }
 })

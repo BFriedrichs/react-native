@@ -15,10 +15,10 @@ export default StyleSheet.create({
     shadowOpacity: 0.15,
     shadowRadius: 3,
     shadowOffset: {
-      height: 5,
-      width: 5
+      height: 3,
+      width: 3
     },
-    elevation: 5
+    elevation: 3
   },
   listItem: {
     padding: 16,

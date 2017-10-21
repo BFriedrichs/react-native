@@ -61,7 +61,7 @@ class ItemListItem extends Component {
                     <Text style={Styles.tags} >
                     {
                       item.hasTags() && item.tags.reduce((e1, e2) => 
-                        e1 + ' ' + e2
+                        e1 + ' · ' + e2
                       )
                     }
                     </Text>

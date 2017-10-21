@@ -19,6 +19,7 @@ export default class TagInput extends Component {
   }
 
   chooseTag(tag: string) {
+    tag = tag.trim()
     if(tag != '' && !(this.state.currentTags.includes(tag))) {
       this.setState({
         currentInput: '',
