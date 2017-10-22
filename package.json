@@ -1,5 +1,5 @@
 {
-  "name": "shopapp",
+  "name": "Shoptastic",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -12,7 +12,8 @@
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "flow": "flow",
-    "start-emulator": "$ANDROID_HOME/emulator/emulator -avd Nexus_5_API_23"
+    "start-emulator": "$ANDROID_HOME/emulator/emulator -avd Nexus_5_API_23",
+    "export-icon": "yo rn-toolbox:assets --icon src/assets/icon.png"
   },
   "jest": {
     "preset": "jest-expo"

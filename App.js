@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 
 import { Provider } from 'react-redux'
