@@ -18,12 +18,4 @@ export default class Item {
     this.tags = data.tags || []
     this.date = Date.now()
   }
-
-  hasTags(): bool {
-    return this.tags.length > 0
-  }
-
-  equals(item: Item): bool {
-    return this.id === item.id
-  }
 }

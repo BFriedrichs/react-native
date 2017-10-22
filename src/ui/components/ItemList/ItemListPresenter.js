@@ -32,6 +32,7 @@ class ItemListItem extends Component {
 
   render() {
     const item = this.props.item
+    const hasTags = item.tags.length > 0
 
     const interpolatedGreen = this.animation.interpolate({
       inputRange: [0, 150],
@@ -136,10 +137,10 @@ class ItemListItem extends Component {
                   <Text color={Colors.FontGrey} style={Styles.text}>
                     {item.name}
                   </Text>
-                  <View style={[Styles.tagsWrapper, {display: item.hasTags() ? 'flex' : 'none'}]} >
+                  <View style={[Styles.tagsWrapper, {display: hasTags ? 'flex' : 'none'}]} >
                     <Text style={Styles.tags} >
                     {
-                      item.hasTags() && item.tags.reduce((e1, e2) => 
+                      hasTags && item.tags.reduce((e1, e2) => 
                         e1 + ' · ' + e2
                       )
                     }

@@ -17,7 +17,7 @@ const ItemReducer = (state: Array<Item> = [], action: {type: string, id: string,
       let incItem: Item = (state.find(e=>e.id==action.id): any)
       if(incItem) {
         return state.map((item: Item, index) => {
-          if(!item.equals(incItem)) {
+          if(item.id != incItem.id) {
             return item
           }
 
@@ -30,7 +30,7 @@ const ItemReducer = (state: Array<Item> = [], action: {type: string, id: string,
       let updateItem: Item = (state.find(e=>e.id==action.id): any)
       if(updateItem) {
         return state.map((item: Item, index) => {
-          if(!item.equals(updateItem)) {
+          if(item.id != updateItem.id) {
             return item
           }
 
