@@ -32,5 +32,12 @@ export default StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     color: Colors.FontLightGrey
+  },
+  backdrop: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    height: dim.height,
+    width: dim.width * 0.4
   }
 })

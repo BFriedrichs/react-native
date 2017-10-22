@@ -8,6 +8,7 @@ export default class Item {
   name: string
   count: number
   tags: Array<string>
+  date: number
 
   constructor(name: string, data: ItemData) {
     this.id = UUID.v4()
@@ -15,6 +16,7 @@ export default class Item {
     
     this.count = data.count || 1
     this.tags = data.tags || []
+    this.date = Date.now()
   }
 
   hasTags(): bool {

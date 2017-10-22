@@ -1,20 +1,33 @@
 // @flow
 
 import React, { Component } from 'react'
-import { View } from 'react-native'
+import { StatusBar, View, Text, TouchableOpacity } from 'react-native'
 
 import Styles from './styles'
+
+import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
 
 import ItemList from 'src/ui/components/ItemList'
 import BottomBar from 'src/ui/components/BottomBar'
 import SideMenu from 'src/ui/components/SideMenu'
 import FilterMenu from 'src/ui/components/FilterMenu'
 
+
 export default class Main extends Component {
 
-  static navigationOptions = {
-    title: 'Home'
-  }
+  static navigationOptions = ({ navigation }) => ({
+    title: 'Shoptastic',
+    headerRight: (
+      <TouchableOpacity
+        onPress={()=>{ navigation.navigate('History') }}
+      >
+        <MaterialIcon 
+          name='history'
+          size={30}
+          style={Styles.navButton} />
+      </TouchableOpacity>
+    )
+  })
 
   state = {
     isSideMenuVisible: false
@@ -29,9 +42,10 @@ export default class Main extends Component {
       <View style={Styles.wrapper}>
         <View style={Styles.sideMenuWrapper}>
           <SideMenu
-            title='Filter'
+            title='FILTER'
             menu={(<FilterMenu />)}
             visible={this.state.isSideMenuVisible}
+            onBackdropPress={this.toggleSideMenu.bind(this)}
           >
             <ItemList
               navigation={this.props.navigation}

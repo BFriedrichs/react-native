@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Platform, StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity, ScrollView } from 'react-native'
+import { Keyboard, Platform, StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity, ScrollView } from 'react-native'
 import { SearchBar } from 'react-native-elements'
 import Swipeable from 'react-native-swipeable'
 import * as Animatable from 'react-native-animatable';
@@ -85,7 +85,8 @@ class ItemListItem extends Component {
 
 export default class ItemList extends Component {
   state = {
-    isLocked: false
+    isLocked: false,
+    isSearching: false
   }
 
   setLock(event: any, state: any) {
@@ -113,12 +114,21 @@ export default class ItemList extends Component {
 
   keyExtractor(item: Item, index: number) {
     return item.id
+  } 
+
+  didInit = false
+
+  componentDidUpdate() {
+    setTimeout(() => {
+      if(!this.state.isSearching && this.refs.scrollView && this.props.filter.search == '') {
+        this.refs.scrollView.scrollTo({ x: 0, y: 50, animated: true })
+        Keyboard.dismiss()
+      }
+    }, 0)
   }
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.refs.scrollView && this.refs.scrollView.scrollTo({ x: 0, y: 50, animated: false })
-    }, 0)
+  submitEdit() {
+    this.setState({isSearching: false})
   }
 
   render() {
@@ -134,16 +144,22 @@ export default class ItemList extends Component {
       >
         <SearchBar 
           lightTheme
-          onChangeText={text => this.props.updateFilter({search: text})}
+          onChangeText={text => {
+            this.setState({isSearching: true})
+            this.props.updateFilter({search: text})
+          }}
+          onSubmitEditing={this.submitEdit.bind(this)}
+          onBlur={this.submitEdit.bind(this)}
           placeholder={'Search'}
           containerStyle={{ backgroundColor: Colors.GreyBackground }}
+          returnKeyType='search'
           inputStyle={{ color: Colors.FontGrey }}
         />
         <FlatList 
           ref='list'
           scrollEnabled={false}
           data={this.props.items}
-          extraData={this.props.items}
+          extraData={this.props.items.map(item => {return item.id})}
           renderItem={this.renderItem.bind(this)}
           keyExtractor={this.keyExtractor}
         />

@@ -30,12 +30,14 @@ export default StyleSheet.create({
     borderWidth: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    borderRadius: 8
+    borderRadius: 4
   },
   tag: {
     margin: 4,
-    paddingTop: 1,
-    paddingBottom: 1,
+    padding: 16,
+    paddingTop: 4,
+    paddingBottom: 4,
+    borderRadius: 4,
     backgroundColor: Colors.LightGrey
   },
   chosenTag: {

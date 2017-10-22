@@ -1,9 +1,7 @@
 import { connect } from 'react-redux'
-import ItemListPresenter from './ItemListPresenter'
-import ItemActions from 'src/actions/ItemActions'
-import FilterActions from 'src/actions/FilterActions'
+import BottomBarPresenter from './BottomBarPresenter'
 
-const getCurrentItems = (items, filter) => {
+const getFilteredItems = (items, filter) => {
   let filteredItems = items
   if(filter.search != '') {
     filteredItems = filteredItems.filter(item => {
@@ -47,28 +45,21 @@ const getCurrentItems = (items, filter) => {
 
 const mapStateToProps = state => {
   return {
-    items: getCurrentItems(state.items, state.filter),
-    filter: state.filter
+    items: state.items,
+    filter: state.filter,
+    filteredItems: getFilteredItems(state.items, state.filter)
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
-    onIncreaseClick: (id: string) => {
-      dispatch(ItemActions.incrementItem(id))
-    },
-    deleteItem: (id: string) => {
-      dispatch(ItemActions.deleteItem(id))
-    },
-    updateFilter: (data: FilterData) => {
-      dispatch(FilterActions.updateFilter(data))
-    }
+
   }
 }
 
-const ItemListController = connect(
+const BottomBarController = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ItemListPresenter)
+)(BottomBarPresenter)
 
-export default ItemListController
+export default BottomBarController

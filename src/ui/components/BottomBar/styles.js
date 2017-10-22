@@ -20,5 +20,14 @@ export default StyleSheet.create({
   barItem: {
     height: 56,
     color: Colors.Blue
+  },
+  textContainer: {
+    flexDirection: 'column',
+    justifyContent: 'center'
+  },
+  textItem: {
+    color: Colors.FontLightGrey,
+    height: 'auto',
+    textAlign: 'center'
   }
 })

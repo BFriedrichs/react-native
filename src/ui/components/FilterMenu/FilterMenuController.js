@@ -12,7 +12,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    updateTags: (data: FilterData) => {
+    updateFilter: (data: FilterData) => {
       dispatch(FilterActions.updateFilter(data))
     }
   }

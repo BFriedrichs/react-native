@@ -8,5 +8,9 @@ declare type ItemData = {
 
 declare type FilterData = {
     search?: string,
-    tags?: Array<string>
+    tags?: Array<string>,
+    sort?: {
+        key?: string,
+        by?: string
+    }
 }

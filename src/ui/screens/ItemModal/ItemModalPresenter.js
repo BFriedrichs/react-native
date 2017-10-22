@@ -1,27 +1,43 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Picker, ScrollView, Keyboard, Text, TouchableHighlight, TouchableOpacity, View } from 'react-native';
+import { StatusBar, Picker, ScrollView, Keyboard, Text, TouchableHighlight, TouchableOpacity, View } from 'react-native';
 import { Button, FormLabel, FormInput, Slider } from 'react-native-elements'
 import { connect } from 'react-redux'
 import * as Animatable from 'react-native-animatable';
 import Modal from 'react-native-modal'
+import { HeaderBackButton } from 'react-navigation'
 
 import Styles from './styles'
 
 import ItemActions from 'src/actions/ItemActions'
 import Colors from 'src/ui/Colors'
 
+import KeyboardAvoidingView from 'src/ui/components/KeyboardAvoidingView'
 import TagInput from 'src/ui/components/TagInput'
 import Tag from 'src/ui/components/Tag'
 
-class ItemModal extends Component {
+export default class ItemModalPresenter extends Component {
   static navigationOptions = ({ navigation }) => ({
-    title: navigation.state.params.title
+    title: 'Text', //navigation.state.params.title,
+    headerTintColor: Colors.White,
+    headerStyle: {
+      backgroundColor: Colors.Blue
+    },
+    headerLeft: (
+      <HeaderBackButton 
+        title='Back'
+        tintColor={Colors.White}
+        onPress={() => {
+          StatusBar.setBarStyle('dark-content', true)
+          navigation.goBack()
+        }}
+      />
+    )
   })
 
   tagInput: TagInput
-  item = this.props.navigation.state.params.item
+  item = null //this.props.navigation.state.params.item
   state: {
     itemName: string,
     tags: Array<string>,
@@ -34,28 +50,6 @@ class ItemModal extends Component {
       count: this.item ? this.item.count != null ? this.item.count : 1 : 1,
       isLocked: false,
       modalVisible: false
-  }
-
-  keyboardTiming = 250
-  keyboardWillShowListener: any
-  keyboardWillHideListener: any
-  
-  componentWillMount() {
-    this.keyboardWillShowListener = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow.bind(this))
-    this.keyboardWillHideListener = Keyboard.addListener('keyboardWillHide', this.keyboardWillHide.bind(this))
-  }
-
-  componentWillUnmount() {
-    this.keyboardWillShowListener.remove()
-    this.keyboardWillHideListener.remove()
-  }
-
-  keyboardWillShow(e: any) {
-    this.refs.keyboardDummy.transitionTo({height: e.endCoordinates.height}, this.keyboardTiming, 'ease-out')
-  }
-
-  keyboardWillHide() {
-    this.refs.keyboardDummy.transitionTo({height: 0}, this.keyboardTiming, 'ease-out')
   }
 
   submitItem() {
@@ -78,9 +72,11 @@ class ItemModal extends Component {
   }
 
   render() {
+    StatusBar.setBarStyle('light-content', true)
+
     return(
       <View style={Styles.wrapper}>
-        <View style={Styles.wrapper}>
+        <KeyboardAvoidingView>
           <ScrollView 
             scrollEnabled={!this.state.isLocked}
             keyboardShouldPersistTaps='handled'
@@ -163,11 +159,8 @@ class ItemModal extends Component {
             disabled={this.state.itemName == '' ? true : false}
             onPress={this.submitItem.bind(this)}
             />
-        </View>
-        <Animatable.View style={{height: 0}} ref='keyboardDummy' />
+        </KeyboardAvoidingView>
       </View>
     )
   }
 }
-
-export default ItemModal

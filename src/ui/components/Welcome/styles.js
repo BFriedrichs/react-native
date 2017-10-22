@@ -17,7 +17,7 @@ export default StyleSheet.create({
   welcomeText: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: Colors.FontLightGrey,
+    color: Colors.Input,
     textAlign: 'center'
   },
   arrow: {

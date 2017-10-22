@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { View, Text, Dimensions } from 'react-native'
+import { View, Text, Dimensions, TouchableWithoutFeedback } from 'react-native'
 import * as Animatable from 'react-native-animatable'
 
 import TagInput from '../TagInput'
@@ -20,6 +20,14 @@ export default class SideMenuPresenter extends Component {
   }
 
   render() {
+    const backdrop = this.props.onBackdropPress && this.props.visible ? (
+      <TouchableWithoutFeedback
+        style={[Styles.backdrop]}
+        onPress={this.props.onBackdropPress}>
+        <View style={Styles.backdrop} />
+      </TouchableWithoutFeedback>
+    ) : null
+
     return(
       <View style={Styles.wrapper}>
         <Animatable.View ref='sidebar' style={Styles.animationWrapper}>
@@ -30,6 +38,7 @@ export default class SideMenuPresenter extends Component {
         </Animatable.View>
         <View style={Styles.children}>
           {this.props.children}
+          {backdrop}
         </View>
       </View>
     )

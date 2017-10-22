@@ -1,2 +1,2 @@
-import BottomBar from './BottomBar'
+import BottomBar from './BottomBarController'
 export default BottomBar
