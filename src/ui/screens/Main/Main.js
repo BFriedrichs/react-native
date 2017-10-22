@@ -38,6 +38,8 @@ export default class Main extends Component {
   }
 
   render() {
+    StatusBar.setBarStyle('dark-content', true)
+    
     return (
       <View style={Styles.wrapper}>
         <View style={Styles.sideMenuWrapper}>

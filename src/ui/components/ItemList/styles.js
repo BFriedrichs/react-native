@@ -30,15 +30,18 @@ export default StyleSheet.create({
     color: Colors.FontGrey,
     fontSize: 24
   },
-  deleteButton: {
-    backgroundColor: Colors.Red,
-    paddingLeft: 16,
+  button: {
+    paddingLeft: 24,
+    paddingRight: 24,
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: Colors.LightGrey
   },
-  deleteText: {
-    color: Colors.White
+  actionText: {
+    color: Colors.White,
+    fontSize: 24,
+    padding: 8
   },
   count: {
     minWidth: 50,

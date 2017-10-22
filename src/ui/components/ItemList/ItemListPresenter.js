@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Keyboard, Platform, StyleSheet, View, FlatList, Text, TouchableHighlight, TouchableOpacity, ScrollView } from 'react-native'
+import { Animated, Keyboard, Platform, StyleSheet, View, FlatList, Text, TouchableOpacity, ScrollView } from 'react-native'
 import { SearchBar } from 'react-native-elements'
 import Swipeable from 'react-native-swipeable'
 import * as Animatable from 'react-native-animatable';
@@ -14,16 +14,60 @@ import Welcome from '../Welcome'
 import Tag from '../Tag'
 import Item from 'src/models/Item'
 import IonIcon from 'react-native-vector-icons/Ionicons'
+import MaterialCommIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 class ItemListItem extends Component {
-  deleteButton = (
-    <TouchableHighlight style={Styles.deleteButton}>
-      <Text style={[Styles.text, Styles.deleteText]}>Delete</Text>
-    </TouchableHighlight>
-  )
+
+  state = {
+    finishIcon: 'check-circle-outline',
+    deleteIcon: 'close-circle-outline'
+  }
+
+  animation: any
+  animationTimer = 500
+
+  componentWillMount() {
+    this.animation = new Animated.Value(0)
+  }
 
   render() {
     const item = this.props.item
+
+    const interpolatedGreen = this.animation.interpolate({
+      inputRange: [0, 150],
+      outputRange: [Colors.LightGrey, Colors.Green]
+    })
+
+    const interpolatedRed = this.animation.interpolate({
+      inputRange: [0, 150],
+      outputRange: [Colors.LightGrey, Colors.Red]
+    })
+
+    const deleteButton = (
+      <Animated.View style={[Styles.button, { backgroundColor: interpolatedRed }]}>
+        <MaterialCommIcon
+          color='#f1f1f1'
+          ref='finishIcon'
+          size={36}
+          style={{marginTop: 4}}
+          name={this.state.deleteIcon}
+        />  
+        <Text style={Styles.actionText} >Delete</Text>
+      </Animated.View>
+    )
+  
+    const finishButton = (
+      <Animated.View style={[Styles.button, { justifyContent: 'flex-end', backgroundColor: interpolatedGreen }]}>
+        <Text style={Styles.actionText}>Done</Text>
+        <MaterialCommIcon
+          color='#f1f1f1'
+          ref='finishIcon'
+          size={36}
+          style={{marginTop: 4}}
+          name={this.state.finishIcon}
+        />  
+      </Animated.View>
+    )
 
     // extra View for shadow because of: https://github.com/facebook/react-native/issues/14868
     return (
@@ -33,9 +77,42 @@ class ItemListItem extends Component {
         ref="animatable"
         duration={500} 
       > 
-        <View style={Styles.shadow}>
+        <View style={Styles.shadow} >
           <Swipeable 
-            rightContent={this.deleteButton}
+            onLeftActionActivate={() => {
+                //this.setState({ finishIcon: 'check-circle' })
+                Animated.timing(this.animation, {
+                  toValue: 150,
+                  duration: this.animationTimer
+                }).start()
+              }
+            }
+            onLeftActionDeactivate={() => {
+                //this.setState({ finishIcon: 'check-circle-outline' })
+                Animated.timing(this.animation, {
+                  toValue: 0,
+                  duration: this.animationTimer
+                }).start()
+              }
+            }
+            onRightActionActivate={() => {
+                //this.setState({ deleteIcon: 'close-circle' })
+                Animated.timing(this.animation, {
+                  toValue: 150,
+                  duration: this.animationTimer
+                }).start()
+              }
+            }
+            onRightActionDeactivate={() => {
+                //this.setState({ deleteIcon: 'close-circle-outline' })
+                Animated.timing(this.animation, {
+                  toValue: 0,
+                  duration: this.animationTimer
+                }).start()
+              }
+            }
+            leftContent={finishButton}
+            rightContent={deleteButton}
             onSwipeStart={this.props.setLock.bind(true)}
             onSwipeRelease={this.props.setLock.bind(false)}
             onRightActionRelease={() => {
@@ -54,7 +131,7 @@ class ItemListItem extends Component {
                 <Tag 
                   style={[Styles.count, {width: (`${item.count}`.length * 25)}]} 
                   font={Styles.countText} 
-                  text={`${item.count}`} />
+                  text={'' + item.count} />
                 <View style={{flex: 1, paddingRight: 8}}>
                   <Text color={Colors.FontGrey} style={Styles.text}>
                     {item.name}
@@ -68,11 +145,6 @@ class ItemListItem extends Component {
                     }
                     </Text>
                   </View>
-                </View>
-                <View>
-                  <TouchableOpacity onPress={this.props.onIncreaseClick.bind(this, item.id)} >
-                    <IonIcon name="ios-add-circle-outline" size={32} color={Colors.Blue} />
-                  </TouchableOpacity>
                 </View>
               </View>
             </TouchableOpacity>
@@ -96,7 +168,7 @@ export default class ItemList extends Component {
   editItem(item: Item) {
     const { navigate } = this.props.navigation
 
-    navigate('ItemModalModal', {title: 'Edit Item', item: item})
+    navigate('ItemModal', {title: 'Edit Item', item: item})
   }
 
   renderItem(element: {item: Item}) {

@@ -19,7 +19,7 @@ import Tag from 'src/ui/components/Tag'
 
 export default class ItemModalPresenter extends Component {
   static navigationOptions = ({ navigation }) => ({
-    title: 'Text', //navigation.state.params.title,
+    title: navigation.state.params.title,
     headerTintColor: Colors.White,
     headerStyle: {
       backgroundColor: Colors.Blue
@@ -37,7 +37,7 @@ export default class ItemModalPresenter extends Component {
   })
 
   tagInput: TagInput
-  item = null //this.props.navigation.state.params.item
+  item = this.props.navigation.state.params.item
   state: {
     itemName: string,
     tags: Array<string>,

@@ -3,12 +3,14 @@
 import React, { Component } from 'react'
 import { View, Text, Image } from 'react-native'
 
+import * as Animatable from 'react-native-animatable'
+
 import Styles from './styles'
 
 export default class Welcome extends Component {
   render() {
     return (
-      <View style={Styles.container}>
+      <Animatable.View animation='fadeIn' style={Styles.container}>
         <Text style={Styles.welcomeText}>
           To begin your new shopping experience add your first item!
         </Text>
@@ -16,7 +18,7 @@ export default class Welcome extends Component {
           style={Styles.arrow}
           source={require('src/assets/arrow.png')}
         />
-      </View>
+      </Animatable.View>
     )
   }
 }

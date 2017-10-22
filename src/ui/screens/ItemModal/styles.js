@@ -31,10 +31,12 @@ export default StyleSheet.create({
   countView: {
     position: 'absolute',
     right: 20,
-    top: 10,
+    top: 10
   },
   countViewTag: {
-    backgroundColor: Colors.Blue
+    backgroundColor: Colors.Blue,
+    paddingLeft: 16,
+    paddingRight: 16
   },
   submitButtonContainer: {
     marginLeft: 0,
