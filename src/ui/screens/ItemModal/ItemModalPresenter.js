@@ -19,21 +19,7 @@ import Tag from 'src/ui/components/Tag'
 
 export default class ItemModalPresenter extends Component {
   static navigationOptions = ({ navigation }) => ({
-    title: navigation.state.params.title,
-    headerTintColor: Colors.White,
-    headerStyle: {
-      backgroundColor: Colors.Blue
-    },
-    headerLeft: (
-      <HeaderBackButton 
-        title='Back'
-        tintColor={Colors.White}
-        onPress={() => {
-          StatusBar.setBarStyle('dark-content', true)
-          navigation.goBack()
-        }}
-      />
-    )
+    title: navigation.state.params.title
   })
 
   tagInput: TagInput
@@ -72,8 +58,6 @@ export default class ItemModalPresenter extends Component {
   }
 
   render() {
-    StatusBar.setBarStyle('light-content', true)
-
     return(
       <View style={Styles.wrapper}>
         <KeyboardAvoidingView>

@@ -16,7 +16,16 @@ export default StyleSheet.create({
     justifyContent: 'center'
   },
   scrollItem: {
-    paddingBottom: 10
+    margin: 16,
+    paddingBottom: 16,
+    backgroundColor: Colors.White,
+    shadowOpacity: 0.15,
+    shadowRadius: 3,
+    shadowOffset: {
+      height: 3,
+      width: 3
+    },
+    elevation: 3
   },
   inputStyle: {
     color: Colors.FontBlack
@@ -31,7 +40,7 @@ export default StyleSheet.create({
   countView: {
     position: 'absolute',
     right: 20,
-    top: 10
+    top: 13
   },
   countViewTag: {
     backgroundColor: Colors.Blue,
