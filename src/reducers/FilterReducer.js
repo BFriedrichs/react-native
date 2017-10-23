@@ -3,6 +3,8 @@
 const FilterReducer = (state: FilterData = {isFiltered: false, sort: {key: 'SORT_DATE', by: 'ASC'}, search: '', tags: []}, action: {type: string, data: FilterData}) => {
   switch(action.type) {
     case 'UPDATE_FILTER':
+
+      /*
       let newState = {
         search: action.data.search != null ? action.data.search : state.search || '',
         tags: action.data.tags || state.tags || [],
@@ -12,7 +14,10 @@ const FilterReducer = (state: FilterData = {isFiltered: false, sort: {key: 'SORT
         },
         isFiltered: false
       }
-      newState.isFiltered = !(newState.search == '' && newState.tags.length == 0)
+      */
+
+      let newState: FilterData = Object.assign({}, state, action.data)
+      newState.isFiltered = !(newState.search == '' && newState.tags && newState.tags.length == 0)
 
       return newState
     default: 

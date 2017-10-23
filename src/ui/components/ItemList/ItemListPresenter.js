@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Animated, Keyboard, Platform, StyleSheet, View, FlatList, Text, TouchableOpacity, ScrollView } from 'react-native'
+import { Animated, Keyboard, Platform, StyleSheet, View, FlatList, Text, TouchableOpacity, TouchableWithoutFeedback, ScrollView } from 'react-native'
 import { SearchBar } from 'react-native-elements'
 import Swipeable from 'react-native-swipeable'
 import * as Animatable from 'react-native-animatable';
@@ -13,8 +13,9 @@ import Colors from 'src/ui/Colors'
 import Welcome from '../Welcome'
 import Tag from '../Tag'
 import Item from 'src/models/Item'
-import IonIcon from 'react-native-vector-icons/Ionicons'
+import FontAwesomeIconI from 'react-native-vector-icons/FontAwesome'
 import MaterialCommIcon from 'react-native-vector-icons/MaterialCommunityIcons'
+const FontAwesomeIcon = Animatable.createAnimatableComponent(FontAwesomeIconI);
 
 class ItemListItem extends Component {
 
@@ -147,7 +148,26 @@ class ItemListItem extends Component {
                     </Text>
                   </View>
                 </View>
+                <TouchableWithoutFeedback
+                  onPress={() => {
+                      this.refs.animatable.slideOutRight(800).then(() => {
+                        this.props.onStarClick(item.id, !item.starred)
+                        this.refs.animatable.slideInRight(800).then(() => {
+                          item.starred && this.refs.favIcon.tada()
+                        })
+                      })
+                    }
+                  }
+                >
+                  <FontAwesomeIcon
+                    ref='favIcon'
+                    name={item.starred ? 'star' : 'star-o'}
+                    size={40}
+                    color={item.starred ? Colors.Yellow : Colors.LightGrey}
+                  />
+                </TouchableWithoutFeedback>
               </View>
+
             </TouchableOpacity>
           </Swipeable>
         </View>
@@ -178,6 +198,7 @@ export default class ItemList extends Component {
         ref={element.item.id}
         deleteItem={this.props.deleteItem}
         editItem={this.editItem.bind(this, element.item)}
+        onStarClick={this.props.onStarClick}
         item={element.item} 
         setLock={this.setLock.bind(this)}
         onIncreaseClick={this.props.onIncreaseClick}

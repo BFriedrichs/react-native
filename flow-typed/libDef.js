@@ -4,6 +4,7 @@ declare type ItemData = {
     count?: number,
     stores?: Array<string>,
     tags?: Array<string>,
+    starred?: boolean
 }
 
 declare type FilterData = {
@@ -12,5 +13,6 @@ declare type FilterData = {
     sort?: {
         key?: string,
         by?: string
-    }
+    },
+    isFiltered?: boolean
 }

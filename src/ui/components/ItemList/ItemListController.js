@@ -42,6 +42,14 @@ const getCurrentItems = (items, filter) => {
     filteredItems = filteredItems.reverse()
   }
 
+  let starred = filteredItems.filter(e => { return e.starred })
+  let unstarred = filteredItems.filter(e => { return !e.starred })
+
+  filteredItems = [
+    ...starred,
+    ...unstarred
+  ]
+
   return filteredItems
 }
 
@@ -54,8 +62,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onIncreaseClick: (id: string) => {
-      dispatch(ItemActions.incrementItem(id))
+    onStarClick: (id: string, starred: boolean) => {
+      dispatch(ItemActions.updateItem(id, {starred: starred}))
     },
     deleteItem: (id: string) => {
       dispatch(ItemActions.deleteItem(id))
