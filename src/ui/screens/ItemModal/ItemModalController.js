@@ -5,7 +5,7 @@ import TagActions from 'src/actions/TagActions'
 
 const mapStateToProps = state => {
   return {
-    tags: state.tags
+    tags: state.tags.map(storedTag => storedTag.tag)
   }
 }
 

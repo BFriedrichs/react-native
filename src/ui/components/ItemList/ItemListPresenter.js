@@ -121,7 +121,7 @@ class ItemListItem extends Component {
               this.refs.animatable.zoomOutUp(800)
               this.refs.animatable.transitionTo({marginTop: -100}, 800)
               setTimeout(() => {
-                this.props.deleteItem(item.id)
+                this.props.deleteItem(item)
               }, 800)
             }}
             onLeftActionRelease={() => {
@@ -129,7 +129,6 @@ class ItemListItem extends Component {
               this.refs.animatable.transitionTo({marginTop: -100}, 800)
               setTimeout(() => {
                 this.props.addToHistory(item)
-                this.props.deleteItem(item.id)
               }, 800)
             }}
             style={{ overflow: 'hidden' }}

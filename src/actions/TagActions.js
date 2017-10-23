@@ -7,6 +7,12 @@ class TagActions {
       tags: tags
     }
   }
+  deleteTags(tags: Array<String>) {
+    return {
+      type: 'DELETE_TAGS',
+      tags: tags
+    }
+  }
 }
 
 export default new TagActions()

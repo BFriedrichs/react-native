@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { View, Text, Dimensions, TouchableWithoutFeedback } from 'react-native'
+import { Keyboard, View, Text, Dimensions, TouchableWithoutFeedback } from 'react-native'
 import * as Animatable from 'react-native-animatable'
 
 import TagInput from '../TagInput'
@@ -15,6 +15,7 @@ export default class SideMenuPresenter extends Component {
     if(this.props.visible) {
       this.refs.sidebar.transitionTo({marginLeft: -dim.width * 0.1}, 400, 'ease-in-out-back')
     } else {
+      Keyboard.dismiss()
       this.refs.sidebar.transitionTo({marginLeft: -dim.width * 0.7}, 400, 'ease-in-out-back')
     }
   }

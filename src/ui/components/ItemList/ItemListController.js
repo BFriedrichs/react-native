@@ -3,6 +3,7 @@ import ItemListPresenter from './ItemListPresenter'
 import ItemActions from 'src/actions/ItemActions'
 import FilterActions from 'src/actions/FilterActions'
 import FinishedItemActions from 'src/actions/FinishedItemActions'
+import TagActions from 'src/actions/TagActions'
 
 import { getCurrentItems } from 'src/util/helper'
 
@@ -18,14 +19,17 @@ const mapDispatchToProps = dispatch => {
     onStarClick: (id: string, starred: boolean) => {
       dispatch(ItemActions.updateItem(id, {starred: starred}))
     },
-    deleteItem: (id: string) => {
-      dispatch(ItemActions.deleteItem(id))
+    deleteItem: (item: Item) => {
+      dispatch(TagActions.deleteTags(item.tags))
+      dispatch(ItemActions.deleteItem(item.id))
     },
     updateFilter: (data: FilterData) => {
       dispatch(FilterActions.updateFilter(data))
     },
     addToHistory: (data: ItemData) => {
+      dispatch(TagActions.deleteTags(data.tags))
       dispatch(FinishedItemActions.addItem(data))
+      dispatch(ItemActions.deleteItem(data.id))
     }
   }
 }

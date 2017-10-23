@@ -23,6 +23,9 @@ export default class App extends React.Component {
 
   componentWillMount() {
     var self = this
+
+    // AsyncStorage.setItem('completeStore', '') // Reset all
+
     AppState.addEventListener('change', this._handleAppStateChange.bind(this))
     this.setState({isStoreLoading: true})
     AsyncStorage.getItem('completeStore').then((value)=>{

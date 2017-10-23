@@ -5,7 +5,7 @@ import FilterActions from 'src/actions/FilterActions'
 
 const mapStateToProps = state => {
   return {
-    tags: state.tags,
+    tags: state.tags.map(storedTag => storedTag.tag),
     filter: state.filter
   }
 }
