@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Alert, FlatList, TouchableOpacity, TouchableHighlight, StatusBar, Button, View, Text } from 'react-native'
+import { Platform, Alert, FlatList, TouchableOpacity, TouchableHighlight, StatusBar, Button, View, Text } from 'react-native'
 import { HeaderBackButton } from 'react-navigation'
 import * as Animatable from 'react-native-animatable';
 
@@ -88,12 +88,24 @@ export default class HistoryPresenter extends Component {
         />
       ),
       headerRight: (
-        <Button
-        title={params.editButton || 'Edit'}
-        color={Colors.White}
-        tintColor={Colors.White}
-        onPress={() => params.toggleEditMode()}
-      />
+        Platform.select({
+          ios: (
+            <Button
+              title={params.editButton || 'Edit'}
+              color={Colors.White}
+              tintColor={Colors.White}
+              onPress={() => params.toggleEditMode()}
+            />
+          ),
+          android: (
+            <TouchableOpacity
+              onPress={() => params.toggleEditMode()}
+            >
+              <Text style={Styles.androidHeaderButton}>{params.editButton || 'Edit'}</Text>
+            </TouchableOpacity>
+          ),
+        })
+       
       )
     }
   }

@@ -2,3 +2,4 @@ node_modules/
 .expo/
 npm-debug.*
 out/
+android/app/my-release-key.keystore

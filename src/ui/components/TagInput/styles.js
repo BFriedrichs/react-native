@@ -1,7 +1,7 @@
 // @flow 
 
 import React from 'react'
-import { StyleSheet } from 'react-native'
+import { Platform, StyleSheet } from 'react-native'
 
 import Colors from 'src/ui/Colors'
 
@@ -16,7 +16,7 @@ export default StyleSheet.create({
   addButton: {
     position: 'absolute',
     right: 0,
-    margin: 4,
+    margin: 4
   },
   addButtonTag: {
     paddingLeft: 16,
@@ -45,9 +45,16 @@ export default StyleSheet.create({
   },
   inputStyle: {
     color: Colors.FontGrey,
-    height: 40,
-    borderBottomColor: Colors.Input,
-    borderBottomWidth: 1
+    ...Platform.select({
+      ios: {
+        borderBottomColor: Colors.Input,
+        borderBottomWidth: 1,
+        height: 40
+      },
+      android: {
+        height: 50
+      }
+    })
   },
   disabled: {
     backgroundColor: Colors.Disabled
