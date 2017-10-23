@@ -17,5 +17,8 @@ export default StyleSheet.create({
   navButton: {
     marginRight: 12, 
     color: Colors.Blue
+  },
+  header: {
+    flexDirection: 'row'
   }
 })

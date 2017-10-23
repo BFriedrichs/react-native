@@ -124,6 +124,14 @@ class ItemListItem extends Component {
                 this.props.deleteItem(item.id)
               }, 800)
             }}
+            onLeftActionRelease={() => {
+              this.refs.animatable.slideOutRight(800)
+              this.refs.animatable.transitionTo({marginTop: -100}, 800)
+              setTimeout(() => {
+                this.props.addToHistory(item)
+                this.props.deleteItem(item.id)
+              }, 800)
+            }}
             style={{ overflow: 'hidden' }}
           > 
             <TouchableOpacity
@@ -150,14 +158,18 @@ class ItemListItem extends Component {
                 </View>
                 <TouchableWithoutFeedback
                   onPress={() => {
+                    if(this.props.globalCount > 1) {
                       this.refs.animatable.slideOutRight(800).then(() => {
                         this.props.onStarClick(item.id, !item.starred)
                         this.refs.animatable.slideInRight(800).then(() => {
                           item.starred && this.refs.favIcon.tada()
                         })
                       })
+                    } else {
+                      this.props.onStarClick(item.id, !item.starred)
+                      item.starred && this.refs.favIcon.tada()
                     }
-                  }
+                  }}
                 >
                   <FontAwesomeIcon
                     ref='favIcon'
@@ -189,7 +201,7 @@ export default class ItemList extends Component {
   editItem(item: Item) {
     const { navigate } = this.props.navigation
 
-    navigate('ItemModal', {title: 'Edit Item', item: item})
+    navigate('ItemModal', {title: 'Edit Item', item: item, buttonTitle: 'UPDATE', update: true})
   }
 
   renderItem(element: {item: Item}) {
@@ -199,7 +211,9 @@ export default class ItemList extends Component {
         deleteItem={this.props.deleteItem}
         editItem={this.editItem.bind(this, element.item)}
         onStarClick={this.props.onStarClick}
+        addToHistory={this.props.addToHistory}
         item={element.item} 
+        globalCount={this.props.items.length}
         setLock={this.setLock.bind(this)}
         onIncreaseClick={this.props.onIncreaseClick}
       />
@@ -214,7 +228,7 @@ export default class ItemList extends Component {
 
   componentDidUpdate() {
     setTimeout(() => {
-      if(!this.state.isSearching && this.refs.scrollView && this.props.filter.search == '') {
+      if(!this.state.isLocked && !this.state.isSearching && this.refs.scrollView && this.props.filter.search == '') {
         this.refs.scrollView.scrollTo({ x: 0, y: 50, animated: true })
         Keyboard.dismiss()
       }

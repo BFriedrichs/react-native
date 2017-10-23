@@ -3,13 +3,13 @@
 class FinishedItemActions {
   addItem(data: ItemData) {
     return {
-      type: 'ADD_ITEM',
+      type: 'HISTORY_ADD_ITEM',
       data: data
     }
   }
   deleteItem(id: string) {
     return {
-      type: 'DELETE_ITEM',
+      type: 'HISTORY_DELETE_ITEM',
       id: id
     }
   }

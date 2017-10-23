@@ -39,7 +39,7 @@ export default class ItemModalPresenter extends Component {
   }
 
   submitItem() {
-    const { goBack } = this.props.navigation
+    const { goBack, state } = this.props.navigation
 
     const data: ItemData = {
       name: this.state.itemName,
@@ -48,16 +48,19 @@ export default class ItemModalPresenter extends Component {
     }
 
     this.props.addTags(data.tags)
-    if(this.item) {
+    if(this.item && state.params && state.params.update) {
       this.props.updateItem(this.item.id, data)
     } else {
       this.props.addItem(data)
     }
     Keyboard.dismiss()
-    goBack()
+    goBack(state.params.backKey || null)
   }
 
   render() {
+    StatusBar.setBarStyle('dark-content', true)
+    const buttonTitle = this.props.navigation.state.params.buttonTitle || 'ADD'
+
     return(
       <View style={Styles.wrapper}>
         <KeyboardAvoidingView>
@@ -137,7 +140,7 @@ export default class ItemModalPresenter extends Component {
             large
             icon={{name: 'check-circle'}}
             backgroundColor={Colors.Blue}
-            title={this.item ? 'UPDATE' : 'ADD'}
+            title={buttonTitle}
             buttonStyle={Styles.submitButton}
             containerViewStyle={Styles.submitButtonContainer}
             disabled={this.state.itemName == '' ? true : false}
