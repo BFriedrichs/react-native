@@ -2,7 +2,7 @@
 manifest
 ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
-		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:2:5-26
+		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:2:5-45
 		INJECTED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -26,7 +26,7 @@ MERGED from [com.facebook.react:react-native:0.48.4] /Users/bjoern/code/shopapp/
 		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [shopapp:react-native-vector-icons:unspecified] /Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/shopapp/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [Shoptastic:react-native-vector-icons:unspecified] /Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/Shoptastic/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.48.4] /Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
@@ -63,7 +63,7 @@ MERGED from [org.webkit:android-jsc:r174650] /Users/bjoern/code/shopapp/src/shop
 		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
 		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:14:7-38
-activity#com.shopapp.MainActivity
+activity#de.bjoernfriedrichs.shoptastic.MainActivity
 ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:19:7-28:18
 	android:label
 		ADDED from /Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/AndroidManifest.xml:21:9-41

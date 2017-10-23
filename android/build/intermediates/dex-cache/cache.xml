@@ -48,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/shopapp/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
-        <dex dex="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/pre-dexed/debug/shopapp-react-native-vector-icons-unspecified_f90b1470b3c7a6359f3749fe6e6bd77a06276479.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -108,6 +99,15 @@
         revision="23.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_37df77903e1c696af54d16840a0c818197dcec91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/Shoptastic/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/pre-dexed/debug/Shoptastic-react-native-vector-icons-unspecified_cad5523cb90c4524ac48c0c1659b53d400aa9f71.jar" />
     </item>
     <item
         is-multidex="false"

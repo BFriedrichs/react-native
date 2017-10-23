@@ -3351,8 +3351,8 @@
                     "startLine": 258,
                     "startColumn": 4,
                     "startOffset": 31587,
-                    "endColumn": 44,
-                    "endOffset": 31627
+                    "endColumn": 47,
+                    "endOffset": 31630
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/res/values/strings.xml",
@@ -3360,8 +3360,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 16,
-                        "endColumn": 44,
-                        "endOffset": 56
+                        "endColumn": 47,
+                        "endOffset": 59
                     }
                 }
             },
@@ -3369,9 +3369,9 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 31632,
+                    "startOffset": 31635,
                     "endColumn": 93,
-                    "endOffset": 31721
+                    "endOffset": 31724
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3388,9 +3388,9 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 31726,
+                    "startOffset": 31729,
                     "endColumn": 102,
-                    "endOffset": 31824
+                    "endOffset": 31827
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3407,9 +3407,9 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 31829,
+                    "startOffset": 31832,
                     "endColumn": 113,
-                    "endOffset": 31938
+                    "endOffset": 31941
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3426,9 +3426,9 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 31943,
+                    "startOffset": 31946,
                     "endColumn": 106,
-                    "endOffset": 32045
+                    "endOffset": 32048
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3445,9 +3445,9 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 32050,
+                    "startOffset": 32053,
                     "endColumn": 111,
-                    "endOffset": 32157
+                    "endOffset": 32160
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3464,9 +3464,9 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 32162,
+                    "startOffset": 32165,
                     "endColumn": 102,
-                    "endOffset": 32260
+                    "endOffset": 32263
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3483,9 +3483,9 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 32265,
+                    "startOffset": 32268,
                     "endColumn": 120,
-                    "endOffset": 32381
+                    "endOffset": 32384
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3502,9 +3502,9 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 32386,
+                    "startOffset": 32389,
                     "endColumn": 125,
-                    "endOffset": 32507
+                    "endOffset": 32510
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3521,9 +3521,9 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 32512,
+                    "startOffset": 32515,
                     "endColumn": 190,
-                    "endOffset": 32698
+                    "endOffset": 32701
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3540,9 +3540,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 32703,
+                    "startOffset": 32706,
                     "endColumn": 107,
-                    "endOffset": 32806
+                    "endOffset": 32809
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3559,9 +3559,9 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 32811,
+                    "startOffset": 32814,
                     "endColumn": 112,
-                    "endOffset": 32919
+                    "endOffset": 32922
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3578,9 +3578,9 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 32924,
+                    "startOffset": 32927,
                     "endColumn": 112,
-                    "endOffset": 33032
+                    "endOffset": 33035
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3597,9 +3597,9 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 33037,
+                    "startOffset": 33040,
                     "endColumn": 107,
-                    "endOffset": 33140
+                    "endOffset": 33143
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3616,9 +3616,9 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 33145,
+                    "startOffset": 33148,
                     "endColumn": 111,
-                    "endOffset": 33252
+                    "endOffset": 33255
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3635,9 +3635,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 33257,
+                    "startOffset": 33260,
                     "endColumn": 128,
-                    "endOffset": 33381
+                    "endOffset": 33384
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3654,9 +3654,9 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 33386,
+                    "startOffset": 33389,
                     "endColumn": 110,
-                    "endOffset": 33492
+                    "endOffset": 33495
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3673,9 +3673,9 @@
                 "to": {
                     "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 33497,
+                    "startOffset": 33500,
                     "endColumn": 92,
-                    "endOffset": 33585
+                    "endOffset": 33588
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3692,9 +3692,9 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 33590,
+                    "startOffset": 33593,
                     "endColumn": 131,
-                    "endOffset": 33717
+                    "endOffset": 33720
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3711,9 +3711,9 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 33722,
+                    "startOffset": 33725,
                     "endColumn": 124,
-                    "endOffset": 33842
+                    "endOffset": 33845
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3730,9 +3730,9 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 33847,
+                    "startOffset": 33850,
                     "endColumn": 97,
-                    "endOffset": 33940
+                    "endOffset": 33943
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3749,9 +3749,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 33945,
+                    "startOffset": 33948,
                     "endColumn": 98,
-                    "endOffset": 34039
+                    "endOffset": 34042
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3768,9 +3768,9 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 34044,
+                    "startOffset": 34047,
                     "endColumn": 113,
-                    "endOffset": 34153
+                    "endOffset": 34156
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3787,9 +3787,9 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 34158,
+                    "startOffset": 34161,
                     "endColumn": 70,
-                    "endOffset": 34224
+                    "endOffset": 34227
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3806,9 +3806,9 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 34229,
+                    "startOffset": 34232,
                     "endColumn": 77,
-                    "endOffset": 34302
+                    "endOffset": 34305
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3825,9 +3825,9 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 34307,
+                    "startOffset": 34310,
                     "endColumn": 89,
-                    "endOffset": 34392
+                    "endOffset": 34395
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3844,9 +3844,9 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 34397,
+                    "startOffset": 34400,
                     "endColumn": 87,
-                    "endOffset": 34480
+                    "endOffset": 34483
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3863,9 +3863,9 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 34485,
+                    "startOffset": 34488,
                     "endColumn": 95,
-                    "endOffset": 34576
+                    "endOffset": 34579
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3882,10 +3882,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 34581,
+                    "startOffset": 34584,
                     "endLine": 289,
                     "endColumn": 10,
-                    "endOffset": 34824
+                    "endOffset": 34827
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -3903,10 +3903,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 34829,
+                    "startOffset": 34832,
                     "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 34952
+                    "endOffset": 34955
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/src/main/res/values/styles.xml",
@@ -3924,10 +3924,10 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 34957,
+                    "startOffset": 34960,
                     "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 35453
+                    "endOffset": 35456
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3945,9 +3945,9 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 35458,
+                    "startOffset": 35461,
                     "endColumn": 88,
-                    "endOffset": 35542
+                    "endOffset": 35545
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3964,10 +3964,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 35547,
+                    "startOffset": 35550,
                     "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 35789
+                    "endOffset": 35792
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -3985,10 +3985,10 @@
                 "to": {
                     "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 35794,
+                    "startOffset": 35797,
                     "endLine": 308,
                     "endColumn": 12,
-                    "endOffset": 36070
+                    "endOffset": 36073
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4006,10 +4006,10 @@
                 "to": {
                     "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 36075,
+                    "startOffset": 36078,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 36355
+                    "endOffset": 36358
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4027,10 +4027,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 36360,
+                    "startOffset": 36363,
                     "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 36748
+                    "endOffset": 36751
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4048,10 +4048,10 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 36753,
+                    "startOffset": 36756,
                     "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 37225
+                    "endOffset": 37228
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4069,10 +4069,10 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 37230,
+                    "startOffset": 37233,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 37447
+                    "endOffset": 37450
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4090,10 +4090,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 37452,
+                    "startOffset": 37455,
                     "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 37669
+                    "endOffset": 37672
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4111,10 +4111,10 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 37674,
+                    "startOffset": 37677,
                     "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 37937
+                    "endOffset": 37940
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4132,10 +4132,10 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 37942,
+                    "startOffset": 37945,
                     "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 38164
+                    "endOffset": 38167
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4153,10 +4153,10 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 38169,
+                    "startOffset": 38172,
                     "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 38394
+                    "endOffset": 38397
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4174,10 +4174,10 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 38399,
+                    "startOffset": 38402,
                     "endLine": 351,
                     "endColumn": 12,
-                    "endOffset": 38624
+                    "endOffset": 38627
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4195,10 +4195,10 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 38629,
+                    "startOffset": 38632,
                     "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 38854
+                    "endOffset": 38857
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4216,10 +4216,10 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 38859,
+                    "startOffset": 38862,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 39084
+                    "endOffset": 39087
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4237,10 +4237,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 39089,
+                    "startOffset": 39092,
                     "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 39311
+                    "endOffset": 39314
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4258,10 +4258,10 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 39316,
+                    "startOffset": 39319,
                     "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 39550
+                    "endOffset": 39553
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4279,10 +4279,10 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 39555,
+                    "startOffset": 39558,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 39776
+                    "endOffset": 39779
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4300,10 +4300,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 39781,
+                    "startOffset": 39784,
                     "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 40021
+                    "endOffset": 40024
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4321,10 +4321,10 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 40026,
+                    "startOffset": 40029,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 40151
+                    "endOffset": 40154
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4342,10 +4342,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 40156,
+                    "startOffset": 40159,
                     "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 40281
+                    "endOffset": 40284
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4363,10 +4363,10 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 40286,
+                    "startOffset": 40289,
                     "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 40511
+                    "endOffset": 40514
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4384,10 +4384,10 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 40516,
+                    "startOffset": 40519,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 40759
+                    "endOffset": 40762
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4405,10 +4405,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 40764,
+                    "startOffset": 40767,
                     "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 40978
+                    "endOffset": 40981
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4426,10 +4426,10 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 40983,
+                    "startOffset": 40986,
                     "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 41261
+                    "endOffset": 41264
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4447,10 +4447,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 41266,
+                    "startOffset": 41269,
                     "endLine": 400,
                     "endColumn": 12,
-                    "endOffset": 41469
+                    "endOffset": 41472
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4468,10 +4468,10 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 41474,
+                    "startOffset": 41477,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 41600
+                    "endOffset": 41603
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4489,10 +4489,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 41605,
+                    "startOffset": 41608,
                     "endLine": 407,
                     "endColumn": 12,
-                    "endOffset": 41827
+                    "endOffset": 41830
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4510,10 +4510,10 @@
                 "to": {
                     "startLine": 408,
                     "startColumn": 4,
-                    "startOffset": 41832,
+                    "startOffset": 41835,
                     "endLine": 411,
                     "endColumn": 12,
-                    "endOffset": 42073
+                    "endOffset": 42076
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4531,10 +4531,10 @@
                 "to": {
                     "startLine": 412,
                     "startColumn": 4,
-                    "startOffset": 42078,
+                    "startOffset": 42081,
                     "endLine": 415,
                     "endColumn": 12,
-                    "endOffset": 42298
+                    "endOffset": 42301
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4552,10 +4552,10 @@
                 "to": {
                     "startLine": 416,
                     "startColumn": 4,
-                    "startOffset": 42303,
+                    "startOffset": 42306,
                     "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 42545
+                    "endOffset": 42548
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4573,10 +4573,10 @@
                 "to": {
                     "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 42550,
+                    "startOffset": 42553,
                     "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 42766
+                    "endOffset": 42769
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4594,10 +4594,10 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 42771,
+                    "startOffset": 42774,
                     "endLine": 427,
                     "endColumn": 12,
-                    "endOffset": 43011
+                    "endOffset": 43014
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4615,10 +4615,10 @@
                 "to": {
                     "startLine": 428,
                     "startColumn": 4,
-                    "startOffset": 43016,
+                    "startOffset": 43019,
                     "endLine": 431,
                     "endColumn": 12,
-                    "endOffset": 43285
+                    "endOffset": 43288
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4636,10 +4636,10 @@
                 "to": {
                     "startLine": 432,
                     "startColumn": 4,
-                    "startOffset": 43290,
+                    "startOffset": 43293,
                     "endLine": 435,
                     "endColumn": 12,
-                    "endOffset": 43586
+                    "endOffset": 43589
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4657,10 +4657,10 @@
                 "to": {
                     "startLine": 436,
                     "startColumn": 4,
-                    "startOffset": 43591,
+                    "startOffset": 43594,
                     "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 43910
+                    "endOffset": 43913
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4678,10 +4678,10 @@
                 "to": {
                     "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 43915,
+                    "startOffset": 43918,
                     "endLine": 443,
                     "endColumn": 12,
-                    "endOffset": 44201
+                    "endOffset": 44204
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4699,10 +4699,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 44206,
+                    "startOffset": 44209,
                     "endLine": 447,
                     "endColumn": 12,
-                    "endOffset": 44515
+                    "endOffset": 44518
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4720,9 +4720,9 @@
                 "to": {
                     "startLine": 448,
                     "startColumn": 4,
-                    "startOffset": 44520,
+                    "startOffset": 44523,
                     "endColumn": 136,
-                    "endOffset": 44652
+                    "endOffset": 44655
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4739,9 +4739,9 @@
                 "to": {
                     "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 44657,
+                    "startOffset": 44660,
                     "endColumn": 130,
-                    "endOffset": 44783
+                    "endOffset": 44786
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4758,9 +4758,9 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 44788,
+                    "startOffset": 44791,
                     "endColumn": 104,
-                    "endOffset": 44888
+                    "endOffset": 44891
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4777,10 +4777,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 44893,
+                    "startOffset": 44896,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 45092
+                    "endOffset": 45095
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4798,10 +4798,10 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 45097,
+                    "startOffset": 45100,
                     "endLine": 456,
                     "endColumn": 12,
-                    "endOffset": 45300
+                    "endOffset": 45303
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4819,10 +4819,10 @@
                 "to": {
                     "startLine": 457,
                     "startColumn": 4,
-                    "startOffset": 45305,
+                    "startOffset": 45308,
                     "endLine": 458,
                     "endColumn": 12,
-                    "endOffset": 45424
+                    "endOffset": 45427
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4840,10 +4840,10 @@
                 "to": {
                     "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 45429,
+                    "startOffset": 45432,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 45548
+                    "endOffset": 45551
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4861,9 +4861,9 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 45553,
+                    "startOffset": 45556,
                     "endColumn": 104,
-                    "endOffset": 45653
+                    "endOffset": 45656
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4880,9 +4880,9 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 45658,
+                    "startOffset": 45661,
                     "endColumn": 116,
-                    "endOffset": 45770
+                    "endOffset": 45773
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4899,10 +4899,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 45775,
+                    "startOffset": 45778,
                     "endLine": 465,
                     "endColumn": 12,
-                    "endOffset": 45984
+                    "endOffset": 45987
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4920,10 +4920,10 @@
                 "to": {
                     "startLine": 466,
                     "startColumn": 4,
-                    "startOffset": 45989,
+                    "startOffset": 45992,
                     "endLine": 467,
                     "endColumn": 12,
-                    "endOffset": 46130
+                    "endOffset": 46133
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4941,10 +4941,10 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 46135,
+                    "startOffset": 46138,
                     "endLine": 469,
                     "endColumn": 12,
-                    "endOffset": 46270
+                    "endOffset": 46273
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4962,10 +4962,10 @@
                 "to": {
                     "startLine": 470,
                     "startColumn": 4,
-                    "startOffset": 46275,
+                    "startOffset": 46278,
                     "endLine": 471,
                     "endColumn": 12,
-                    "endOffset": 46356
+                    "endOffset": 46359
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -4983,10 +4983,10 @@
                 "to": {
                     "startLine": 472,
                     "startColumn": 4,
-                    "startOffset": 46361,
+                    "startOffset": 46364,
                     "endLine": 476,
                     "endColumn": 12,
-                    "endOffset": 46704
+                    "endOffset": 46707
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5004,9 +5004,9 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 46709,
+                    "startOffset": 46712,
                     "endColumn": 87,
-                    "endOffset": 46792
+                    "endOffset": 46795
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5023,10 +5023,10 @@
                 "to": {
                     "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 46797,
+                    "startOffset": 46800,
                     "endLine": 481,
                     "endColumn": 12,
-                    "endOffset": 47022
+                    "endOffset": 47025
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5044,10 +5044,10 @@
                 "to": {
                     "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 47027,
+                    "startOffset": 47030,
                     "endLine": 487,
                     "endColumn": 12,
-                    "endOffset": 47424
+                    "endOffset": 47427
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5065,10 +5065,10 @@
                 "to": {
                     "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 47429,
+                    "startOffset": 47432,
                     "endLine": 491,
                     "endColumn": 12,
-                    "endOffset": 47657
+                    "endOffset": 47660
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5086,9 +5086,9 @@
                 "to": {
                     "startLine": 492,
                     "startColumn": 4,
-                    "startOffset": 47662,
+                    "startOffset": 47665,
                     "endColumn": 81,
-                    "endOffset": 47739
+                    "endOffset": 47742
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5105,10 +5105,10 @@
                 "to": {
                     "startLine": 493,
                     "startColumn": 4,
-                    "startOffset": 47744,
+                    "startOffset": 47747,
                     "endLine": 494,
                     "endColumn": 12,
-                    "endOffset": 47837
+                    "endOffset": 47840
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5126,10 +5126,10 @@
                 "to": {
                     "startLine": 495,
                     "startColumn": 4,
-                    "startOffset": 47842,
+                    "startOffset": 47845,
                     "endLine": 505,
                     "endColumn": 12,
-                    "endOffset": 48454
+                    "endOffset": 48457
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5147,9 +5147,9 @@
                 "to": {
                     "startLine": 506,
                     "startColumn": 4,
-                    "startOffset": 48459,
+                    "startOffset": 48462,
                     "endColumn": 99,
-                    "endOffset": 48554
+                    "endOffset": 48557
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5166,10 +5166,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 48559,
+                    "startOffset": 48562,
                     "endLine": 510,
                     "endColumn": 12,
-                    "endOffset": 48790
+                    "endOffset": 48793
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5187,10 +5187,10 @@
                 "to": {
                     "startLine": 511,
                     "startColumn": 4,
-                    "startOffset": 48795,
+                    "startOffset": 48798,
                     "endLine": 516,
                     "endColumn": 12,
-                    "endOffset": 49198
+                    "endOffset": 49201
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5208,10 +5208,10 @@
                 "to": {
                     "startLine": 517,
                     "startColumn": 4,
-                    "startOffset": 49203,
+                    "startOffset": 49206,
                     "endLine": 520,
                     "endColumn": 12,
-                    "endOffset": 49437
+                    "endOffset": 49440
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5229,9 +5229,9 @@
                 "to": {
                     "startLine": 521,
                     "startColumn": 4,
-                    "startOffset": 49442,
+                    "startOffset": 49445,
                     "endColumn": 93,
-                    "endOffset": 49531
+                    "endOffset": 49534
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5248,9 +5248,9 @@
                 "to": {
                     "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 49536,
+                    "startOffset": 49539,
                     "endColumn": 88,
-                    "endOffset": 49620
+                    "endOffset": 49623
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5267,10 +5267,10 @@
                 "to": {
                     "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 49625,
+                    "startOffset": 49628,
                     "endLine": 526,
                     "endColumn": 12,
-                    "endOffset": 49857
+                    "endOffset": 49860
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5288,10 +5288,10 @@
                 "to": {
                     "startLine": 527,
                     "startColumn": 4,
-                    "startOffset": 49862,
+                    "startOffset": 49865,
                     "endLine": 552,
                     "endColumn": 12,
-                    "endOffset": 51808
+                    "endOffset": 51811
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5309,10 +5309,10 @@
                 "to": {
                     "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 51813,
+                    "startOffset": 51816,
                     "endLine": 556,
                     "endColumn": 12,
-                    "endOffset": 52050
+                    "endOffset": 52053
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5330,10 +5330,10 @@
                 "to": {
                     "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 52055,
+                    "startOffset": 52058,
                     "endLine": 583,
                     "endColumn": 12,
-                    "endOffset": 54132
+                    "endOffset": 54135
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5351,10 +5351,10 @@
                 "to": {
                     "startLine": 584,
                     "startColumn": 4,
-                    "startOffset": 54137,
+                    "startOffset": 54140,
                     "endLine": 731,
                     "endColumn": 12,
-                    "endOffset": 63559
+                    "endOffset": 63562
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5372,10 +5372,10 @@
                 "to": {
                     "startLine": 732,
                     "startColumn": 4,
-                    "startOffset": 63564,
+                    "startOffset": 63567,
                     "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 64826
+                    "endOffset": 64829
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5393,10 +5393,10 @@
                 "to": {
                     "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 64831,
+                    "startOffset": 64834,
                     "endLine": 901,
                     "endColumn": 12,
-                    "endOffset": 74363
+                    "endOffset": 74366
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5414,10 +5414,10 @@
                 "to": {
                     "startLine": 902,
                     "startColumn": 4,
-                    "startOffset": 74368,
+                    "startOffset": 74371,
                     "endLine": 923,
                     "endColumn": 12,
-                    "endOffset": 75644
+                    "endOffset": 75647
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5435,10 +5435,10 @@
                 "to": {
                     "startLine": 924,
                     "startColumn": 4,
-                    "startOffset": 75649,
+                    "startOffset": 75652,
                     "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 76180
+                    "endOffset": 76183
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5456,10 +5456,10 @@
                 "to": {
                     "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 76185,
+                    "startOffset": 76188,
                     "endLine": 935,
                     "endColumn": 12,
-                    "endOffset": 76510
+                    "endOffset": 76513
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5477,10 +5477,10 @@
                 "to": {
                     "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 76515,
+                    "startOffset": 76518,
                     "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 77633
+                    "endOffset": 77636
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5498,10 +5498,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 77638,
+                    "startOffset": 77641,
                     "endLine": 961,
                     "endColumn": 12,
-                    "endOffset": 77889
+                    "endOffset": 77892
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5519,10 +5519,10 @@
                 "to": {
                     "startLine": 962,
                     "startColumn": 4,
-                    "startOffset": 77894,
+                    "startOffset": 77897,
                     "endLine": 966,
                     "endColumn": 12,
-                    "endOffset": 78125
+                    "endOffset": 78128
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5540,10 +5540,10 @@
                 "to": {
                     "startLine": 967,
                     "startColumn": 4,
-                    "startOffset": 78130,
+                    "startOffset": 78133,
                     "endLine": 976,
                     "endColumn": 12,
-                    "endOffset": 78672
+                    "endOffset": 78675
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5561,10 +5561,10 @@
                 "to": {
                     "startLine": 977,
                     "startColumn": 4,
-                    "startOffset": 78677,
+                    "startOffset": 78680,
                     "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 79166
+                    "endOffset": 79169
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5582,10 +5582,10 @@
                 "to": {
                     "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 79171,
+                    "startOffset": 79174,
                     "endLine": 996,
                     "endColumn": 12,
-                    "endOffset": 79839
+                    "endOffset": 79842
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5603,10 +5603,10 @@
                 "to": {
                     "startLine": 997,
                     "startColumn": 4,
-                    "startOffset": 79844,
+                    "startOffset": 79847,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 79987
+                    "endOffset": 79990
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5624,10 +5624,10 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 79992,
+                    "startOffset": 79995,
                     "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 80515
+                    "endOffset": 80518
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5645,10 +5645,10 @@
                 "to": {
                     "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 80520,
+                    "startOffset": 80523,
                     "endLine": 1014,
                     "endColumn": 12,
-                    "endOffset": 81079
+                    "endOffset": 81082
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5666,10 +5666,10 @@
                 "to": {
                     "startLine": 1015,
                     "startColumn": 4,
-                    "startOffset": 81084,
+                    "startOffset": 81087,
                     "endLine": 1021,
                     "endColumn": 12,
-                    "endOffset": 81454
+                    "endOffset": 81457
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5687,9 +5687,9 @@
                 "to": {
                     "startLine": 1022,
                     "startColumn": 4,
-                    "startOffset": 81459,
+                    "startOffset": 81462,
                     "endColumn": 117,
-                    "endOffset": 81572
+                    "endOffset": 81575
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5706,10 +5706,10 @@
                 "to": {
                     "startLine": 1023,
                     "startColumn": 4,
-                    "startOffset": 81577,
+                    "startOffset": 81580,
                     "endLine": 1031,
                     "endColumn": 12,
-                    "endOffset": 82110
+                    "endOffset": 82113
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5727,10 +5727,10 @@
                 "to": {
                     "startLine": 1032,
                     "startColumn": 4,
-                    "startOffset": 82115,
+                    "startOffset": 82118,
                     "endLine": 1034,
                     "endColumn": 12,
-                    "endOffset": 82267
+                    "endOffset": 82270
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5748,10 +5748,10 @@
                 "to": {
                     "startLine": 1035,
                     "startColumn": 4,
-                    "startOffset": 82272,
+                    "startOffset": 82275,
                     "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 82411
+                    "endOffset": 82414
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5769,10 +5769,10 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 82416,
+                    "startOffset": 82419,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 82731
+                    "endOffset": 82734
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5790,10 +5790,10 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 82736,
+                    "startOffset": 82739,
                     "endLine": 1046,
                     "endColumn": 12,
-                    "endOffset": 82987
+                    "endOffset": 82990
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5811,10 +5811,10 @@
                 "to": {
                     "startLine": 1047,
                     "startColumn": 4,
-                    "startOffset": 82992,
+                    "startOffset": 82995,
                     "endLine": 1050,
                     "endColumn": 12,
-                    "endOffset": 83157
+                    "endOffset": 83160
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5832,10 +5832,10 @@
                 "to": {
                     "startLine": 1051,
                     "startColumn": 4,
-                    "startOffset": 83162,
+                    "startOffset": 83165,
                     "endLine": 1053,
                     "endColumn": 12,
-                    "endOffset": 83298
+                    "endOffset": 83301
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5853,9 +5853,9 @@
                 "to": {
                     "startLine": 1054,
                     "startColumn": 4,
-                    "startOffset": 83303,
+                    "startOffset": 83306,
                     "endColumn": 63,
-                    "endOffset": 83362
+                    "endOffset": 83365
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5872,10 +5872,10 @@
                 "to": {
                     "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 83367,
+                    "startOffset": 83370,
                     "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 83644
+                    "endOffset": 83647
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5893,10 +5893,10 @@
                 "to": {
                     "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 83649,
+                    "startOffset": 83652,
                     "endLine": 1062,
                     "endColumn": 12,
-                    "endOffset": 83930
+                    "endOffset": 83933
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5914,10 +5914,10 @@
                 "to": {
                     "startLine": 1063,
                     "startColumn": 4,
-                    "startOffset": 83935,
+                    "startOffset": 83938,
                     "endLine": 1070,
                     "endColumn": 12,
-                    "endOffset": 84472
+                    "endOffset": 84475
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5935,10 +5935,10 @@
                 "to": {
                     "startLine": 1071,
                     "startColumn": 4,
-                    "startOffset": 84477,
+                    "startOffset": 84480,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 84736
+                    "endOffset": 84739
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5956,10 +5956,10 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 84741,
+                    "startOffset": 84744,
                     "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 85074
+                    "endOffset": 85077
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5977,10 +5977,10 @@
                 "to": {
                     "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 85079,
+                    "startOffset": 85082,
                     "endLine": 1088,
                     "endColumn": 12,
-                    "endOffset": 85427
+                    "endOffset": 85430
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -5998,9 +5998,9 @@
                 "to": {
                     "startLine": 1089,
                     "startColumn": 4,
-                    "startOffset": 85432,
+                    "startOffset": 85435,
                     "endColumn": 93,
-                    "endOffset": 85521
+                    "endOffset": 85524
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6017,10 +6017,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 85526,
+                    "startOffset": 85529,
                     "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 85827
+                    "endOffset": 85830
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6038,10 +6038,10 @@
                 "to": {
                     "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 85832,
+                    "startOffset": 85835,
                     "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 86089
+                    "endOffset": 86092
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6059,10 +6059,10 @@
                 "to": {
                     "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 86094,
+                    "startOffset": 86097,
                     "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 86214
+                    "endOffset": 86217
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6080,10 +6080,10 @@
                 "to": {
                     "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 86219,
+                    "startOffset": 86222,
                     "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 86341
+                    "endOffset": 86344
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6101,10 +6101,10 @@
                 "to": {
                     "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 86346,
+                    "startOffset": 86349,
                     "endLine": 1105,
                     "endColumn": 12,
-                    "endOffset": 86580
+                    "endOffset": 86583
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6122,10 +6122,10 @@
                 "to": {
                     "startLine": 1106,
                     "startColumn": 4,
-                    "startOffset": 86585,
+                    "startOffset": 86588,
                     "endLine": 1108,
                     "endColumn": 12,
-                    "endOffset": 86791
+                    "endOffset": 86794
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6143,10 +6143,10 @@
                 "to": {
                     "startLine": 1109,
                     "startColumn": 4,
-                    "startOffset": 86796,
+                    "startOffset": 86799,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 86910
+                    "endOffset": 86913
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6164,10 +6164,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 86915,
+                    "startOffset": 86918,
                     "endLine": 1114,
                     "endColumn": 12,
-                    "endOffset": 87103
+                    "endOffset": 87106
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6185,10 +6185,10 @@
                 "to": {
                     "startLine": 1115,
                     "startColumn": 4,
-                    "startOffset": 87108,
+                    "startOffset": 87111,
                     "endLine": 1121,
                     "endColumn": 12,
-                    "endOffset": 87558
+                    "endOffset": 87561
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6206,10 +6206,10 @@
                 "to": {
                     "startLine": 1122,
                     "startColumn": 4,
-                    "startOffset": 87563,
+                    "startOffset": 87566,
                     "endLine": 1124,
                     "endColumn": 12,
-                    "endOffset": 87739
+                    "endOffset": 87742
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6227,10 +6227,10 @@
                 "to": {
                     "startLine": 1125,
                     "startColumn": 4,
-                    "startOffset": 87744,
+                    "startOffset": 87747,
                     "endLine": 1127,
                     "endColumn": 12,
-                    "endOffset": 87861
+                    "endOffset": 87864
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6248,10 +6248,10 @@
                 "to": {
                     "startLine": 1128,
                     "startColumn": 4,
-                    "startOffset": 87866,
+                    "startOffset": 87869,
                     "endLine": 1131,
                     "endColumn": 12,
-                    "endOffset": 88120
+                    "endOffset": 88123
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6269,10 +6269,10 @@
                 "to": {
                     "startLine": 1132,
                     "startColumn": 4,
-                    "startOffset": 88125,
+                    "startOffset": 88128,
                     "endLine": 1133,
                     "endColumn": 12,
-                    "endOffset": 88233
+                    "endOffset": 88236
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6290,10 +6290,10 @@
                 "to": {
                     "startLine": 1134,
                     "startColumn": 4,
-                    "startOffset": 88238,
+                    "startOffset": 88241,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 88420
+                    "endOffset": 88423
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6311,10 +6311,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 88425,
+                    "startOffset": 88428,
                     "endLine": 1139,
                     "endColumn": 12,
-                    "endOffset": 88522
+                    "endOffset": 88525
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6332,10 +6332,10 @@
                 "to": {
                     "startLine": 1140,
                     "startColumn": 4,
-                    "startOffset": 88527,
+                    "startOffset": 88530,
                     "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 88966
+                    "endOffset": 88969
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6353,10 +6353,10 @@
                 "to": {
                     "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 88971,
+                    "startOffset": 88974,
                     "endLine": 1147,
                     "endColumn": 12,
-                    "endOffset": 89090
+                    "endOffset": 89093
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6374,10 +6374,10 @@
                 "to": {
                     "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 89095,
+                    "startOffset": 89098,
                     "endLine": 1151,
                     "endColumn": 12,
-                    "endOffset": 89375
+                    "endOffset": 89378
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6395,10 +6395,10 @@
                 "to": {
                     "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 89380,
+                    "startOffset": 89383,
                     "endLine": 1163,
                     "endColumn": 12,
-                    "endOffset": 90262
+                    "endOffset": 90265
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6416,10 +6416,10 @@
                 "to": {
                     "startLine": 1164,
                     "startColumn": 4,
-                    "startOffset": 90267,
+                    "startOffset": 90270,
                     "endLine": 1169,
                     "endColumn": 12,
-                    "endOffset": 90556
+                    "endOffset": 90559
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6437,10 +6437,10 @@
                 "to": {
                     "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 90561,
+                    "startOffset": 90564,
                     "endLine": 1180,
                     "endColumn": 12,
-                    "endOffset": 91288
+                    "endOffset": 91291
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6458,10 +6458,10 @@
                 "to": {
                     "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 91293,
+                    "startOffset": 91296,
                     "endLine": 1183,
                     "endColumn": 12,
-                    "endOffset": 91460
+                    "endOffset": 91463
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6479,10 +6479,10 @@
                 "to": {
                     "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 91465,
+                    "startOffset": 91468,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 91796
+                    "endOffset": 91799
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6500,10 +6500,10 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 91801,
+                    "startOffset": 91804,
                     "endLine": 1200,
                     "endColumn": 12,
-                    "endOffset": 92663
+                    "endOffset": 92666
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6521,10 +6521,10 @@
                 "to": {
                     "startLine": 1201,
                     "startColumn": 4,
-                    "startOffset": 92668,
+                    "startOffset": 92671,
                     "endLine": 1205,
                     "endColumn": 12,
-                    "endOffset": 92941
+                    "endOffset": 92944
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6542,10 +6542,10 @@
                 "to": {
                     "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 92946,
+                    "startOffset": 92949,
                     "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 93144
+                    "endOffset": 93147
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -6563,10 +6563,10 @@
                 "to": {
                     "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 93149,
+                    "startOffset": 93152,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 93335
+                    "endOffset": 93338
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -6584,10 +6584,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 93340,
+                    "startOffset": 93343,
                     "endLine": 1215,
                     "endColumn": 10,
-                    "endOffset": 93519
+                    "endOffset": 93522
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -6605,10 +6605,10 @@
                 "to": {
                     "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 93524,
+                    "startOffset": 93527,
                     "endLine": 1219,
                     "endColumn": 10,
-                    "endOffset": 93707
+                    "endOffset": 93710
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -6626,10 +6626,10 @@
                 "to": {
                     "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 93712,
+                    "startOffset": 93715,
                     "endLine": 1257,
                     "endColumn": 12,
-                    "endOffset": 96569
+                    "endOffset": 96572
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6647,10 +6647,10 @@
                 "to": {
                     "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 96574,
+                    "startOffset": 96577,
                     "endLine": 1296,
                     "endColumn": 12,
-                    "endOffset": 99571
+                    "endOffset": 99574
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6668,9 +6668,9 @@
                 "to": {
                     "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 99576,
+                    "startOffset": 99579,
                     "endColumn": 61,
-                    "endOffset": 99633
+                    "endOffset": 99636
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6687,10 +6687,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 99638,
+                    "startOffset": 99641,
                     "endLine": 1307,
                     "endColumn": 12,
-                    "endOffset": 100263
+                    "endOffset": 100266
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6708,10 +6708,10 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 100268,
+                    "startOffset": 100271,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 100877
+                    "endOffset": 100880
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6729,9 +6729,9 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 100882,
+                    "startOffset": 100885,
                     "endColumn": 85,
-                    "endOffset": 100963
+                    "endOffset": 100966
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6748,10 +6748,10 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 100968,
+                    "startOffset": 100971,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 101076
+                    "endOffset": 101079
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6769,10 +6769,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 101081,
+                    "startOffset": 101084,
                     "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 101305
+                    "endOffset": 101308
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6790,10 +6790,10 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 101310,
+                    "startOffset": 101313,
                     "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 101643
+                    "endOffset": 101646
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6811,10 +6811,10 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 101648,
+                    "startOffset": 101651,
                     "endLine": 1330,
                     "endColumn": 12,
-                    "endOffset": 101803
+                    "endOffset": 101806
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6832,10 +6832,10 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 101808,
+                    "startOffset": 101811,
                     "endLine": 1333,
                     "endColumn": 12,
-                    "endOffset": 101955
+                    "endOffset": 101958
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6853,10 +6853,10 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 101960,
+                    "startOffset": 101963,
                     "endLine": 1336,
                     "endColumn": 12,
-                    "endOffset": 102126
+                    "endOffset": 102129
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6874,10 +6874,10 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 102131,
+                    "startOffset": 102134,
                     "endLine": 1339,
                     "endColumn": 12,
-                    "endOffset": 102293
+                    "endOffset": 102296
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6895,10 +6895,10 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 102298,
+                    "startOffset": 102301,
                     "endLine": 1343,
                     "endColumn": 12,
-                    "endOffset": 102536
+                    "endOffset": 102539
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6916,10 +6916,10 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 102541,
+                    "startOffset": 102544,
                     "endLine": 1346,
                     "endColumn": 12,
-                    "endOffset": 102706
+                    "endOffset": 102709
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6937,10 +6937,10 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102711,
+                    "startOffset": 102714,
                     "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 102879
+                    "endOffset": 102882
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6958,10 +6958,10 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102884,
+                    "startOffset": 102887,
                     "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 103050
+                    "endOffset": 103053
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -6979,10 +6979,10 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 103055,
+                    "startOffset": 103058,
                     "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 103324
+                    "endOffset": 103327
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7000,10 +7000,10 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103329,
+                    "startOffset": 103332,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103523
+                    "endOffset": 103526
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7021,10 +7021,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103528,
+                    "startOffset": 103531,
                     "endLine": 1362,
                     "endColumn": 12,
-                    "endOffset": 103724
+                    "endOffset": 103727
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -7042,10 +7042,10 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103729,
+                    "startOffset": 103732,
                     "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 103913
+                    "endOffset": 103916
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -7063,9 +7063,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103918,
+                    "startOffset": 103921,
                     "endColumn": 83,
-                    "endOffset": 103997
+                    "endOffset": 104000
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7082,9 +7082,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 104002,
+                    "startOffset": 104005,
                     "endColumn": 95,
-                    "endOffset": 104093
+                    "endOffset": 104096
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7101,9 +7101,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 104098,
+                    "startOffset": 104101,
                     "endColumn": 95,
-                    "endOffset": 104189
+                    "endOffset": 104192
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7120,9 +7120,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104194,
+                    "startOffset": 104197,
                     "endColumn": 97,
-                    "endOffset": 104287
+                    "endOffset": 104290
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7139,9 +7139,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104292,
+                    "startOffset": 104295,
                     "endColumn": 99,
-                    "endOffset": 104387
+                    "endOffset": 104390
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7158,9 +7158,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104392,
+                    "startOffset": 104395,
                     "endColumn": 101,
-                    "endOffset": 104489
+                    "endOffset": 104492
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7177,9 +7177,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104494,
+                    "startOffset": 104497,
                     "endColumn": 101,
-                    "endOffset": 104591
+                    "endOffset": 104594
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7196,9 +7196,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104596,
+                    "startOffset": 104599,
                     "endColumn": 101,
-                    "endOffset": 104693
+                    "endOffset": 104696
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7215,9 +7215,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104698,
+                    "startOffset": 104701,
                     "endColumn": 101,
-                    "endOffset": 104795
+                    "endOffset": 104798
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7234,9 +7234,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104800,
+                    "startOffset": 104803,
                     "endColumn": 101,
-                    "endOffset": 104897
+                    "endOffset": 104900
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7253,9 +7253,9 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104902,
+                    "startOffset": 104905,
                     "endColumn": 99,
-                    "endOffset": 104997
+                    "endOffset": 105000
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7272,9 +7272,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 105002,
+                    "startOffset": 105005,
                     "endColumn": 95,
-                    "endOffset": 105093
+                    "endOffset": 105096
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7291,9 +7291,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 105098,
+                    "startOffset": 105101,
                     "endColumn": 111,
-                    "endOffset": 105205
+                    "endOffset": 105208
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7310,9 +7310,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 105210,
+                    "startOffset": 105213,
                     "endColumn": 128,
-                    "endOffset": 105334
+                    "endOffset": 105337
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7329,9 +7329,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105339,
+                    "startOffset": 105342,
                     "endColumn": 122,
-                    "endOffset": 105457
+                    "endOffset": 105460
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7348,10 +7348,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105462,
+                    "startOffset": 105465,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 105611
+                    "endOffset": 105614
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7369,10 +7369,10 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105616,
+                    "startOffset": 105619,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 105765
+                    "endOffset": 105768
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7390,9 +7390,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105770,
+                    "startOffset": 105773,
                     "endColumn": 97,
-                    "endOffset": 105863
+                    "endOffset": 105866
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7409,9 +7409,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105868,
+                    "startOffset": 105871,
                     "endColumn": 113,
-                    "endOffset": 105977
+                    "endOffset": 105980
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7428,9 +7428,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105982,
+                    "startOffset": 105985,
                     "endColumn": 93,
-                    "endOffset": 106071
+                    "endOffset": 106074
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7447,10 +7447,10 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 106076,
+                    "startOffset": 106079,
                     "endLine": 1389,
                     "endColumn": 12,
-                    "endOffset": 106211
+                    "endOffset": 106214
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7468,10 +7468,10 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106216,
+                    "startOffset": 106219,
                     "endLine": 1391,
                     "endColumn": 12,
-                    "endOffset": 106345
+                    "endOffset": 106348
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7489,9 +7489,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 106350,
+                    "startOffset": 106353,
                     "endColumn": 95,
-                    "endOffset": 106441
+                    "endOffset": 106444
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7508,9 +7508,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106446,
+                    "startOffset": 106449,
                     "endColumn": 111,
-                    "endOffset": 106553
+                    "endOffset": 106556
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7527,9 +7527,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106558,
+                    "startOffset": 106561,
                     "endColumn": 99,
-                    "endOffset": 106653
+                    "endOffset": 106656
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7546,9 +7546,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106658,
+                    "startOffset": 106661,
                     "endColumn": 115,
-                    "endOffset": 106769
+                    "endOffset": 106772
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7565,9 +7565,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106774,
+                    "startOffset": 106777,
                     "endColumn": 95,
-                    "endOffset": 106865
+                    "endOffset": 106868
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7584,9 +7584,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106870,
+                    "startOffset": 106873,
                     "endColumn": 111,
-                    "endOffset": 106977
+                    "endOffset": 106980
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7603,10 +7603,10 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106982,
+                    "startOffset": 106985,
                     "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 107117
+                    "endOffset": 107120
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7624,9 +7624,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 107122,
+                    "startOffset": 107125,
                     "endColumn": 135,
-                    "endOffset": 107253
+                    "endOffset": 107256
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7643,10 +7643,10 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107258,
+                    "startOffset": 107261,
                     "endLine": 1402,
                     "endColumn": 12,
-                    "endOffset": 107417
+                    "endOffset": 107420
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7664,9 +7664,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107422,
+                    "startOffset": 107425,
                     "endColumn": 129,
-                    "endOffset": 107547
+                    "endOffset": 107550
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7683,10 +7683,10 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107552,
+                    "startOffset": 107555,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 107705
+                    "endOffset": 107708
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7704,10 +7704,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107710,
+                    "startOffset": 107713,
                     "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 107855
+                    "endOffset": 107858
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7725,9 +7725,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107860,
+                    "startOffset": 107863,
                     "endColumn": 140,
-                    "endOffset": 107996
+                    "endOffset": 107999
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7744,10 +7744,10 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 108001,
+                    "startOffset": 108004,
                     "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 108140
+                    "endOffset": 108143
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7765,9 +7765,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108145,
+                    "startOffset": 108148,
                     "endColumn": 134,
-                    "endOffset": 108275
+                    "endOffset": 108278
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7784,9 +7784,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 108280,
+                    "startOffset": 108283,
                     "endColumn": 111,
-                    "endOffset": 108387
+                    "endOffset": 108390
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7803,9 +7803,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 108392,
+                    "startOffset": 108395,
                     "endColumn": 127,
-                    "endOffset": 108515
+                    "endOffset": 108518
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7822,10 +7822,10 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108520,
+                    "startOffset": 108523,
                     "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 108651
+                    "endOffset": 108654
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7843,10 +7843,10 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108656,
+                    "startOffset": 108659,
                     "endLine": 1417,
                     "endColumn": 12,
-                    "endOffset": 108793
+                    "endOffset": 108796
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7864,10 +7864,10 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 108798,
+                    "startOffset": 108801,
                     "endLine": 1419,
                     "endColumn": 12,
-                    "endOffset": 108935
+                    "endOffset": 108938
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7885,9 +7885,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108940,
+                    "startOffset": 108943,
                     "endColumn": 111,
-                    "endOffset": 109047
+                    "endOffset": 109050
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7904,9 +7904,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 109052,
+                    "startOffset": 109055,
                     "endColumn": 139,
-                    "endOffset": 109187
+                    "endOffset": 109190
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7923,9 +7923,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 109192,
+                    "startOffset": 109195,
                     "endColumn": 67,
-                    "endOffset": 109255
+                    "endOffset": 109258
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7942,9 +7942,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109260,
+                    "startOffset": 109263,
                     "endColumn": 72,
-                    "endOffset": 109328
+                    "endOffset": 109331
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7961,9 +7961,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109333,
+                    "startOffset": 109336,
                     "endColumn": 73,
-                    "endOffset": 109402
+                    "endOffset": 109405
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7980,9 +7980,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109407,
+                    "startOffset": 109410,
                     "endColumn": 72,
-                    "endOffset": 109475
+                    "endOffset": 109478
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7999,9 +7999,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109480,
+                    "startOffset": 109483,
                     "endColumn": 73,
-                    "endOffset": 109549
+                    "endOffset": 109552
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8018,10 +8018,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109554,
+                    "startOffset": 109557,
                     "endLine": 1428,
                     "endColumn": 12,
-                    "endOffset": 109695
+                    "endOffset": 109698
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8039,10 +8039,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109700,
+                    "startOffset": 109703,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 109839
+                    "endOffset": 109842
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8060,10 +8060,10 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109844,
+                    "startOffset": 109847,
                     "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 109977
+                    "endOffset": 109980
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8081,9 +8081,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 109982,
+                    "startOffset": 109985,
                     "endColumn": 25,
-                    "endOffset": 110003
+                    "endOffset": 110006
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8100,9 +8100,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 110008,
+                    "startOffset": 110011,
                     "endColumn": 65,
-                    "endOffset": 110069
+                    "endOffset": 110072
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8119,9 +8119,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 110074,
+                    "startOffset": 110077,
                     "endColumn": 89,
-                    "endOffset": 110159
+                    "endOffset": 110162
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8138,9 +8138,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110164,
+                    "startOffset": 110167,
                     "endColumn": 79,
-                    "endOffset": 110239
+                    "endOffset": 110242
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8157,9 +8157,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 110244,
+                    "startOffset": 110247,
                     "endColumn": 91,
-                    "endOffset": 110331
+                    "endOffset": 110334
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8176,9 +8176,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 110336,
+                    "startOffset": 110339,
                     "endColumn": 97,
-                    "endOffset": 110429
+                    "endOffset": 110432
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8195,10 +8195,10 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 110434,
+                    "startOffset": 110437,
                     "endLine": 1440,
                     "endColumn": 12,
-                    "endOffset": 110539
+                    "endOffset": 110542
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8216,9 +8216,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 110544,
+                    "startOffset": 110547,
                     "endColumn": 77,
-                    "endOffset": 110617
+                    "endOffset": 110620
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8235,9 +8235,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110622,
+                    "startOffset": 110625,
                     "endColumn": 105,
-                    "endOffset": 110723
+                    "endOffset": 110726
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8254,9 +8254,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110728,
+                    "startOffset": 110731,
                     "endColumn": 91,
-                    "endOffset": 110815
+                    "endOffset": 110818
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8273,9 +8273,9 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110820,
+                    "startOffset": 110823,
                     "endColumn": 103,
-                    "endOffset": 110919
+                    "endOffset": 110922
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8292,9 +8292,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110924,
+                    "startOffset": 110927,
                     "endColumn": 109,
-                    "endOffset": 111029
+                    "endOffset": 111032
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8311,10 +8311,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 111034,
+                    "startOffset": 111037,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 111151
+                    "endOffset": 111154
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8332,10 +8332,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 111156,
+                    "startOffset": 111159,
                     "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 111314
+                    "endOffset": 111317
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8353,10 +8353,10 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 111319,
+                    "startOffset": 111322,
                     "endLine": 1455,
                     "endColumn": 12,
-                    "endOffset": 111471
+                    "endOffset": 111474
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8374,9 +8374,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111476,
+                    "startOffset": 111479,
                     "endColumn": 34,
-                    "endOffset": 111506
+                    "endOffset": 111509
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8393,10 +8393,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111511,
+                    "startOffset": 111514,
                     "endLine": 1463,
                     "endColumn": 10,
-                    "endOffset": 111924
+                    "endOffset": 111927
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8414,10 +8414,10 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111929,
+                    "startOffset": 111932,
                     "endLine": 1470,
                     "endColumn": 10,
-                    "endOffset": 112302
+                    "endOffset": 112305
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8435,10 +8435,10 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 112307,
+                    "startOffset": 112310,
                     "endLine": 1473,
                     "endColumn": 10,
-                    "endOffset": 112479
+                    "endOffset": 112482
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8456,10 +8456,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112484,
+                    "startOffset": 112487,
                     "endLine": 1476,
                     "endColumn": 10,
-                    "endOffset": 112658
+                    "endOffset": 112661
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8477,10 +8477,10 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112663,
+                    "startOffset": 112666,
                     "endLine": 1479,
                     "endColumn": 12,
-                    "endOffset": 112841
+                    "endOffset": 112844
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8498,10 +8498,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 112846,
+                    "startOffset": 112849,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 113206
+                    "endOffset": 113209
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8519,9 +8519,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 113211,
+                    "startOffset": 113214,
                     "endColumn": 79,
-                    "endOffset": 113286
+                    "endOffset": 113289
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8538,9 +8538,9 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113291,
+                    "startOffset": 113294,
                     "endColumn": 99,
-                    "endOffset": 113386
+                    "endOffset": 113389
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8557,9 +8557,9 @@
                 "to": {
                     "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 113391,
+                    "startOffset": 113394,
                     "endColumn": 89,
-                    "endOffset": 113476
+                    "endOffset": 113479
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8576,9 +8576,9 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 113481,
+                    "startOffset": 113484,
                     "endColumn": 109,
-                    "endOffset": 113586
+                    "endOffset": 113589
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8595,9 +8595,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113591,
+                    "startOffset": 113594,
                     "endColumn": 91,
-                    "endOffset": 113678
+                    "endOffset": 113681
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8614,10 +8614,10 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 113683,
+                    "startOffset": 113686,
                     "endLine": 1492,
                     "endColumn": 12,
-                    "endOffset": 113778
+                    "endOffset": 113781
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8635,10 +8635,10 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 113783,
+                    "startOffset": 113786,
                     "endLine": 1494,
                     "endColumn": 12,
-                    "endOffset": 113890
+                    "endOffset": 113893
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8656,10 +8656,10 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 113895,
+                    "startOffset": 113898,
                     "endLine": 1496,
                     "endColumn": 12,
-                    "endOffset": 114004
+                    "endOffset": 114007
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8677,10 +8677,10 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114009,
+                    "startOffset": 114012,
                     "endLine": 1498,
                     "endColumn": 12,
-                    "endOffset": 114120
+                    "endOffset": 114123
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8698,10 +8698,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114125,
+                    "startOffset": 114128,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 114236
+                    "endOffset": 114239
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8719,9 +8719,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114241,
+                    "startOffset": 114244,
                     "endColumn": 93,
-                    "endOffset": 114330
+                    "endOffset": 114333
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8738,9 +8738,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 114335,
+                    "startOffset": 114338,
                     "endColumn": 113,
-                    "endOffset": 114444
+                    "endOffset": 114447
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8757,9 +8757,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 114449,
+                    "startOffset": 114452,
                     "endColumn": 117,
-                    "endOffset": 114562
+                    "endOffset": 114565
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8776,10 +8776,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 114567,
+                    "startOffset": 114570,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 114664
+                    "endOffset": 114667
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8797,10 +8797,10 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 114669,
+                    "startOffset": 114672,
                     "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 114784
+                    "endOffset": 114787
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8818,10 +8818,10 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 114789,
+                    "startOffset": 114792,
                     "endLine": 1509,
                     "endColumn": 12,
-                    "endOffset": 114906
+                    "endOffset": 114909
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8839,9 +8839,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 114911,
+                    "startOffset": 114914,
                     "endColumn": 81,
-                    "endOffset": 114988
+                    "endOffset": 114991
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8858,9 +8858,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114993,
+                    "startOffset": 114996,
                     "endColumn": 103,
-                    "endOffset": 115092
+                    "endOffset": 115095
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8877,9 +8877,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 115097,
+                    "startOffset": 115100,
                     "endColumn": 119,
-                    "endOffset": 115212
+                    "endOffset": 115215
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8896,9 +8896,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115217,
+                    "startOffset": 115220,
                     "endColumn": 125,
-                    "endOffset": 115338
+                    "endOffset": 115341
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8915,9 +8915,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 115343,
+                    "startOffset": 115346,
                     "endColumn": 97,
-                    "endOffset": 115436
+                    "endOffset": 115439
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8934,9 +8934,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 115441,
+                    "startOffset": 115444,
                     "endColumn": 93,
-                    "endOffset": 115530
+                    "endOffset": 115533
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8953,9 +8953,9 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 115535,
+                    "startOffset": 115538,
                     "endColumn": 87,
-                    "endOffset": 115618
+                    "endOffset": 115621
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8972,9 +8972,9 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 115623,
+                    "startOffset": 115626,
                     "endColumn": 111,
-                    "endOffset": 115730
+                    "endOffset": 115733
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8991,9 +8991,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 115735,
+                    "startOffset": 115738,
                     "endColumn": 115,
-                    "endOffset": 115846
+                    "endOffset": 115849
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9010,9 +9010,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 115851,
+                    "startOffset": 115854,
                     "endColumn": 121,
-                    "endOffset": 115968
+                    "endOffset": 115971
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9029,9 +9029,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 115973,
+                    "startOffset": 115976,
                     "endColumn": 111,
-                    "endOffset": 116080
+                    "endOffset": 116083
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9048,10 +9048,10 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 116085,
+                    "startOffset": 116088,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 116255
+                    "endOffset": 116258
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9069,9 +9069,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116260,
+                    "startOffset": 116263,
                     "endColumn": 115,
-                    "endOffset": 116371
+                    "endOffset": 116374
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9088,9 +9088,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 116376,
+                    "startOffset": 116379,
                     "endColumn": 85,
-                    "endOffset": 116457
+                    "endOffset": 116460
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9107,10 +9107,10 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 116462,
+                    "startOffset": 116465,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 116569
+                    "endOffset": 116572
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9128,10 +9128,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 116574,
+                    "startOffset": 116577,
                     "endLine": 1529,
                     "endColumn": 12,
-                    "endOffset": 116693
+                    "endOffset": 116696
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9149,9 +9149,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 116698,
+                    "startOffset": 116701,
                     "endColumn": 66,
-                    "endOffset": 116760
+                    "endOffset": 116763
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9168,10 +9168,10 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 116765,
+                    "startOffset": 116768,
                     "endLine": 1532,
                     "endColumn": 12,
-                    "endOffset": 116886
+                    "endOffset": 116889
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9189,9 +9189,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 116891,
+                    "startOffset": 116894,
                     "endColumn": 67,
-                    "endOffset": 116954
+                    "endOffset": 116957
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9208,10 +9208,10 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 116959,
+                    "startOffset": 116962,
                     "endLine": 1535,
                     "endColumn": 12,
-                    "endOffset": 117082
+                    "endOffset": 117085
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9229,10 +9229,10 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 117087,
+                    "startOffset": 117090,
                     "endLine": 1537,
                     "endColumn": 12,
-                    "endOffset": 117226
+                    "endOffset": 117229
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9250,10 +9250,10 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 117231,
+                    "startOffset": 117234,
                     "endLine": 1539,
                     "endColumn": 12,
-                    "endOffset": 117354
+                    "endOffset": 117357
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9271,9 +9271,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 117359,
+                    "startOffset": 117362,
                     "endColumn": 68,
-                    "endOffset": 117423
+                    "endOffset": 117426
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9290,9 +9290,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 117428,
+                    "startOffset": 117431,
                     "endColumn": 94,
-                    "endOffset": 117518
+                    "endOffset": 117521
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9309,9 +9309,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 117523,
+                    "startOffset": 117526,
                     "endColumn": 114,
-                    "endOffset": 117633
+                    "endOffset": 117636
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9328,9 +9328,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 117638,
+                    "startOffset": 117641,
                     "endColumn": 112,
-                    "endOffset": 117746
+                    "endOffset": 117749
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9347,9 +9347,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 117751,
+                    "startOffset": 117754,
                     "endColumn": 98,
-                    "endOffset": 117845
+                    "endOffset": 117848
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9366,9 +9366,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 117850,
+                    "startOffset": 117853,
                     "endColumn": 108,
-                    "endOffset": 117954
+                    "endOffset": 117957
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9385,9 +9385,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 117959,
+                    "startOffset": 117962,
                     "endColumn": 110,
-                    "endOffset": 118065
+                    "endOffset": 118068
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9404,9 +9404,9 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 118070,
+                    "startOffset": 118073,
                     "endColumn": 110,
-                    "endOffset": 118176
+                    "endOffset": 118179
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9423,9 +9423,9 @@
                 "to": {
                     "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 118181,
+                    "startOffset": 118184,
                     "endColumn": 100,
-                    "endOffset": 118277
+                    "endOffset": 118280
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9442,9 +9442,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 118282,
+                    "startOffset": 118285,
                     "endColumn": 104,
-                    "endOffset": 118382
+                    "endOffset": 118385
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9461,10 +9461,10 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 118387,
+                    "startOffset": 118390,
                     "endLine": 1551,
                     "endColumn": 12,
-                    "endOffset": 118494
+                    "endOffset": 118497
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9482,10 +9482,10 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 118499,
+                    "startOffset": 118502,
                     "endLine": 1553,
                     "endColumn": 12,
-                    "endOffset": 118624
+                    "endOffset": 118627
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9503,9 +9503,9 @@
                 "to": {
                     "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 118629,
+                    "startOffset": 118632,
                     "endColumn": 90,
-                    "endOffset": 118715
+                    "endOffset": 118718
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9522,9 +9522,9 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 118720,
+                    "startOffset": 118723,
                     "endColumn": 122,
-                    "endOffset": 118838
+                    "endOffset": 118841
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9541,10 +9541,10 @@
                 "to": {
                     "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 118843,
+                    "startOffset": 118846,
                     "endLine": 1557,
                     "endColumn": 12,
-                    "endOffset": 118950
+                    "endOffset": 118953
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9562,9 +9562,9 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 118955,
+                    "startOffset": 118958,
                     "endColumn": 85,
-                    "endOffset": 119036
+                    "endOffset": 119039
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9581,9 +9581,9 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 119041,
+                    "startOffset": 119044,
                     "endColumn": 103,
-                    "endOffset": 119140
+                    "endOffset": 119143
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9600,10 +9600,10 @@
                 "to": {
                     "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 119145,
+                    "startOffset": 119148,
                     "endLine": 1561,
                     "endColumn": 12,
-                    "endOffset": 119248
+                    "endOffset": 119251
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9621,10 +9621,10 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 119253,
+                    "startOffset": 119256,
                     "endLine": 1563,
                     "endColumn": 12,
-                    "endOffset": 119348
+                    "endOffset": 119351
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9642,10 +9642,10 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 119353,
+                    "startOffset": 119356,
                     "endLine": 1565,
                     "endColumn": 12,
-                    "endOffset": 119466
+                    "endOffset": 119469
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9663,10 +9663,10 @@
                 "to": {
                     "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 119471,
+                    "startOffset": 119474,
                     "endLine": 1567,
                     "endColumn": 12,
-                    "endOffset": 119570
+                    "endOffset": 119573
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9684,10 +9684,10 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 119575,
+                    "startOffset": 119578,
                     "endLine": 1569,
                     "endColumn": 12,
-                    "endOffset": 119674
+                    "endOffset": 119677
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9705,10 +9705,10 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 119679,
+                    "startOffset": 119682,
                     "endLine": 1571,
                     "endColumn": 12,
-                    "endOffset": 119800
+                    "endOffset": 119803
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9726,9 +9726,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 119805,
+                    "startOffset": 119808,
                     "endColumn": 87,
-                    "endOffset": 119888
+                    "endOffset": 119891
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9745,9 +9745,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 119893,
+                    "startOffset": 119896,
                     "endColumn": 89,
-                    "endOffset": 119978
+                    "endOffset": 119981
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9764,9 +9764,9 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 119983,
+                    "startOffset": 119986,
                     "endColumn": 109,
-                    "endOffset": 120088
+                    "endOffset": 120091
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9783,9 +9783,9 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 120093,
+                    "startOffset": 120096,
                     "endColumn": 83,
-                    "endOffset": 120172
+                    "endOffset": 120175
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9802,9 +9802,9 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 120177,
+                    "startOffset": 120180,
                     "endColumn": 53,
-                    "endOffset": 120226
+                    "endOffset": 120229
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9821,9 +9821,9 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 120231,
+                    "startOffset": 120234,
                     "endColumn": 63,
-                    "endOffset": 120290
+                    "endOffset": 120293
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9840,9 +9840,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 120295,
+                    "startOffset": 120298,
                     "endColumn": 105,
-                    "endOffset": 120396
+                    "endOffset": 120399
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9859,9 +9859,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 120401,
+                    "startOffset": 120404,
                     "endColumn": 109,
-                    "endOffset": 120506
+                    "endOffset": 120509
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9878,9 +9878,9 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 120511,
+                    "startOffset": 120514,
                     "endColumn": 83,
-                    "endOffset": 120590
+                    "endOffset": 120593
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9897,9 +9897,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 120595,
+                    "startOffset": 120598,
                     "endColumn": 119,
-                    "endOffset": 120710
+                    "endOffset": 120713
                 },
                 "from": {
                     "file": "/Users/bjoern/code/shopapp/src/shopapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
