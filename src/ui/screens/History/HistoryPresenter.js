@@ -13,6 +13,8 @@ import Item from 'src/models/Item'
 
 import Styles from './styles'
 
+import I18n from 'src/locales'
+
 class HistoryItem extends Component {
   deleteItem(item: Item) {
     this.refs.item.zoomOutUp(800)
@@ -30,7 +32,7 @@ class HistoryItem extends Component {
       <TouchableOpacity
         onPress={() => {
           if(!this.props.editing) {
-            navigate('ItemModal', { title: 'Add from History', item: {...item, count: 1 }, buttonTitle: 'ADD AGAIN', backKey: state.key })
+            navigate('ItemModal', { title: I18n.t('addFromHistory'), item: {...item, count: 1 }, buttonTitle: I18n.t('addAgain'), backKey: state.key })
           }
         }}
       >
@@ -44,11 +46,11 @@ class HistoryItem extends Component {
             <TouchableHighlight
               onPress={() => {
                 Alert.alert(
-                  'Delete Item',
-                  `Do you really want to delete '${item.name}' from your History?`,
+                  I18n.t('deleteItemTitle'),
+                  I18n.t('deleteItemText', {itemName: item.name}),
                   [
-                    {text: 'Cancel', onPress: () => {}},
-                    {text: 'Yes', onPress: () => {
+                    {text: I18n.t('cancel'), onPress: () => {}},
+                    {text: I18n.t('yes'), onPress: () => {
                       this.deleteItem(item)
                     }}
                   ]
@@ -56,7 +58,7 @@ class HistoryItem extends Component {
               }}
             >
               <Animatable.View animation='flipInX' style={Styles.deleteButton}>
-                <Text style={Styles.deleteText}>Delete</Text>
+                <Text style={Styles.deleteText}>{I18n.t('delete')}</Text>
               </Animatable.View>
             </TouchableHighlight>
           ) : null
@@ -72,14 +74,14 @@ export default class HistoryPresenter extends Component {
   static navigationOptions = ({ navigation }) => {
     const { params = {} } = navigation.state
     return {
-      title: 'History',
+      title: I18n.t('history'),
       headerTintColor: Colors.White,
       headerStyle: {
         backgroundColor: Colors.Blue
       },
       headerLeft: (
         <HeaderBackButton 
-          title='Back'
+          title={I18n.t('back')}
           tintColor={Colors.White}
           onPress={() => {
             StatusBar.setBarStyle('dark-content', true)
@@ -91,7 +93,7 @@ export default class HistoryPresenter extends Component {
         Platform.select({
           ios: (
             <Button
-              title={params.editButton || 'Edit'}
+              title={params.editButton || I18n.t('edit')}
               color={Colors.White}
               tintColor={Colors.White}
               onPress={() => params.toggleEditMode()}
@@ -101,7 +103,7 @@ export default class HistoryPresenter extends Component {
             <TouchableOpacity
               onPress={() => params.toggleEditMode()}
             >
-              <Text style={Styles.androidHeaderButton}>{params.editButton || 'Edit'}</Text>
+              <Text style={Styles.androidHeaderButton}>{params.editButton || I18n.t('edit')}</Text>
             </TouchableOpacity>
           ),
         })
@@ -116,7 +118,7 @@ export default class HistoryPresenter extends Component {
 
   toggleEditMode() {
     this.setState({ editing: !this.state.editing })
-    this.props.navigation.setParams({ editButton: this.state.editing ? 'Edit' : 'Done' }) 
+    this.props.navigation.setParams({ editButton: this.state.editing ? I18n.t('edit') : I18n.t('done') }) 
   }
 
   componentDidMount() {

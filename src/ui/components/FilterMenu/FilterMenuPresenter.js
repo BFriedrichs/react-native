@@ -9,6 +9,8 @@ import TagInput from '../TagInput'
 
 import Styles from './styles'
 
+import I18n from 'src/locales'
+
 export default class FilterMenuPresenter extends Component {
   tagsChanged() {
     const filter = {
@@ -39,31 +41,31 @@ export default class FilterMenuPresenter extends Component {
             hideButton
             onChange={this.tagsChanged.bind(this)}
             ref="tagFilter"
-            name="TAGS"
+            name={I18n.t('tags')}
             style={{marginLeft: 0, marginRight: 0, marginBottom: 30}}
             tags={this.props.tags}
             currentTags={this.props.filter.tags}
           />
-          <FormLabel labelStyle={{marginLeft: 0}} >SORT</FormLabel>
+          <FormLabel labelStyle={{marginLeft: 0}} >{I18n.t('sort')}</FormLabel>
           <Picker
             itemStyle={{height: itemHeight}}
             selectedValue={this.props.filter.sort.key}
             onValueChange={this.updateSortKey.bind(this)}
           >
-            <Picker.Item label={'Date'} value={'SORT_Date'} />
-            <Picker.Item label={'Name'} value={'SORT_NAME'} />
-            <Picker.Item label={'Count'} value={'SORT_COUNT'} />
+            <Picker.Item label={I18n.t('date')} value={'SORT_DATE'} />
+            <Picker.Item label={I18n.t('name')} value={'SORT_NAME'} />
+            <Picker.Item label={I18n.t('count')} value={'SORT_COUNT'} />
           </Picker>
 
-          <FormLabel labelStyle={{marginLeft: 0}} >BY</FormLabel>
+          <FormLabel labelStyle={{marginLeft: 0}} >{I18n.t('by')}</FormLabel>
           <Picker
             itemStyle={{height: itemHeight}}
             style={{marginBottom: 32}}
             selectedValue={this.props.filter.sort.by}
             onValueChange={this.updateSortBy.bind(this)}
           >
-            <Picker.Item label={'Ascending'} value={'ASC'} />
-            <Picker.Item label={'Descending'} value={'DESC'} />
+            <Picker.Item label={I18n.t('asc')} value={'ASC'} />
+            <Picker.Item label={I18n.t('desc')} value={'DESC'} />
           </Picker>
         </ScrollView>
       </KeyboardAvoidingView>

@@ -8,6 +8,8 @@ import Styles from './styles'
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
 import FoundationIcon from 'react-native-vector-icons/Foundation'
 
+import I18n from 'src/locales'
+
 export default class BottomBarPresenter extends Component {
   state = {
     isOpening: false
@@ -32,19 +34,19 @@ export default class BottomBarPresenter extends Component {
           <Text 
             style={Styles.textItem}
           >
-            {itemCount} {itemCount == 1 ? 'Item' : 'Items'}
+            {itemCount} {itemCount == 1 ? I18n.t('item') : I18n.t('items')}
           </Text>
           <Text 
             style={Styles.textItem}
           >
-            ({itemCount - filteredItemCount} hidden by filters)
+            ({itemCount - filteredItemCount} {I18n.t('hidden')})
           </Text>
         </View>
         <TouchableOpacity 
           disabled={this.state.isOpening ? true : false}
           onPress={()=>{
             this.setState({isOpening: true})
-            navigate('ItemModal', {title: 'New Item'})
+            navigate('ItemModal', {title: I18n.t('newItem')})
             // disable the button for a bit so it cant be spam clicked
             setTimeout(() => this.setState({isOpening: false}), 200)
           }} 

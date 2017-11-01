@@ -7,6 +7,8 @@ import Tag from '../Tag'
 
 import Styles from './styles'
 
+import I18n from 'src/locales'
+
 export default class TagInput extends Component {
   state: {
     tags: Array<string>,
@@ -88,7 +90,7 @@ export default class TagInput extends Component {
                 disabled={disabledTagButton}
                 onPress={this.chooseTag.bind(this, this.state.currentInput)}
                 >
-                  <Tag style={tagButtonStyle} text="Add" />
+                  <Tag style={tagButtonStyle} text={I18n.t('add')} />
                 </TouchableOpacity>
               )
             }

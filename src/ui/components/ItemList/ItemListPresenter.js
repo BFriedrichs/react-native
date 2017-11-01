@@ -17,6 +17,8 @@ import FontAwesomeIconI from 'react-native-vector-icons/FontAwesome'
 import MaterialCommIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 const FontAwesomeIcon = Animatable.createAnimatableComponent(FontAwesomeIconI);
 
+import I18n from 'src/locales'
+
 class ItemListItem extends Component {
 
   state = {
@@ -54,13 +56,13 @@ class ItemListItem extends Component {
           style={{marginTop: 4}}
           name={this.state.deleteIcon}
         />  
-        <Text style={Styles.actionText} >Delete</Text>
+        <Text style={Styles.actionText} >{I18n.t('delete')}</Text>
       </Animated.View>
     )
   
     const finishButton = (
       <Animated.View style={[Styles.button, { justifyContent: 'flex-end', backgroundColor: interpolatedGreen }]}>
-        <Text style={Styles.actionText}>Done</Text>
+        <Text style={Styles.actionText}>{I18n.t('done')}</Text>
         <MaterialCommIcon
           color='#f1f1f1'
           ref='finishIcon'
@@ -200,7 +202,7 @@ export default class ItemList extends Component {
   editItem(item: Item) {
     const { navigate } = this.props.navigation
 
-    navigate('ItemModal', {title: 'Edit Item', item: item, buttonTitle: 'UPDATE', update: true})
+    navigate('ItemModal', {title: I18n.t('editItem'), item: item, buttonTitle: I18n.t('update'), update: true})
   }
 
   renderItem(element: {item: Item}) {
@@ -246,7 +248,7 @@ export default class ItemList extends Component {
       <ScrollView 
         ref='scrollView'
         scrollEnabled={!this.state.isLocked}
-        contentContainerStyle={{flex: 1}}
+        contentContainerStyle={{flexGrow: 1}}
         style={{flex: 1}}
       >
         <SearchBar 
@@ -257,13 +259,14 @@ export default class ItemList extends Component {
           }}
           onSubmitEditing={this.submitEdit.bind(this)}
           onBlur={this.submitEdit.bind(this)}
-          placeholder={'Search'}
+          placeholder={I18n.t('search')}
           containerStyle={{ backgroundColor: Colors.GreyBackground }}
           returnKeyType='search'
           inputStyle={{ color: Colors.FontGrey }}
         />
         <FlatList 
           ref='list'
+          contentContainerStyle={{paddingBottom: 8}}
           scrollEnabled={false}
           data={this.props.items}
           extraData={this.props.items.map(item => {return item.id})}

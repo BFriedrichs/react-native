@@ -22,6 +22,8 @@ import ItemActions from 'src/actions/ItemActions'
 
 import { getCurrentItems } from 'src/util/helper'
 
+import I18n from 'src/locales'
+
 class Main extends Component {
 
   static navigationOptions = ({ navigation }) => {
@@ -36,11 +38,11 @@ class Main extends Component {
             style={{marginRight: 4}}
             onPress={()=>{ 
               Alert.alert(
-                'Add Current Items',
-                `Do you want to add all current Items to your History?`,
+                I18n.t('addAllTitle'),
+                I18n.t('addAllText'),
                 [
-                  {text: 'Cancel', onPress: () => {}},
-                  {text: 'Yes', onPress: () => {
+                  {text: I18n.t('cancel'), onPress: () => {}},
+                  {text: I18n.t('yes'), onPress: () => {
                     for(const item of params.items) {
                       params.addToHistory(item)
                       params.deleteItem(item.id)
@@ -98,7 +100,7 @@ class Main extends Component {
       <View style={Styles.wrapper}>
         <View style={Styles.sideMenuWrapper}>
           <SideMenu
-            title='FILTER'
+            title={I18n.t('filter')}
             menu={(<FilterMenu />)}
             visible={this.state.isSideMenuVisible}
             onBackdropPress={this.toggleSideMenu.bind(this)}

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>U8Q3Q7S4Y2.org.reactjs.native.example.Shoptastic</string>
+	<string>U8Q3Q7S4Y2.de.bjoern-friedrichs.shoptastic</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>U8Q3Q7S4Y2.org.reactjs.native.example.Shoptastic</string>
+		<string>U8Q3Q7S4Y2.de.bjoern-friedrichs.shoptastic</string>
 	</array>
 </dict>
 </plist>

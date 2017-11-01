@@ -17,6 +17,8 @@ import KeyboardAvoidingView from 'src/ui/components/KeyboardAvoidingView'
 import TagInput from 'src/ui/components/TagInput'
 import Tag from 'src/ui/components/Tag'
 
+import I18n from 'src/locales'
+
 export default class ItemModalPresenter extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: navigation.state.params.title
@@ -59,7 +61,7 @@ export default class ItemModalPresenter extends Component {
 
   render() {
     StatusBar.setBarStyle('dark-content', true)
-    const buttonTitle = this.props.navigation.state.params.buttonTitle || 'ADD'
+    const buttonTitle = this.props.navigation.state.params.buttonTitle || I18n.t('add')
 
     return(
       <View style={Styles.wrapper}>
@@ -70,7 +72,7 @@ export default class ItemModalPresenter extends Component {
             contentContainerStyle={Styles.scrollContainer}
           >
             <View style={Styles.scrollItem} >
-              <FormLabel>Item Name</FormLabel>
+              <FormLabel>{I18n.t('itemName')}</FormLabel>
               <FormInput
                 inputStyle={Styles.inputStyle}
                 onChangeText={(text: string) => this.setState({itemName: text})}
@@ -78,7 +80,7 @@ export default class ItemModalPresenter extends Component {
             </View>
             <View style={[Styles.scrollItem, Styles.countItem]} >
               <View>
-                <FormLabel>Count</FormLabel>
+                <FormLabel>{I18n.t('count')}</FormLabel>
                 <TouchableOpacity
                   onPress={() => this.setState({modalVisible: true})}
                   style={Styles.countView} 
@@ -107,7 +109,7 @@ export default class ItemModalPresenter extends Component {
                     </Picker>
                     <Button
                       backgroundColor={Colors.Blue}
-                      title={'DONE'}
+                      title={I18n.t('done')}
                       buttonStyle={Styles.submitButton}
                       onPress={()=>{this.setState({modalVisible: false})}}
                     />
@@ -129,7 +131,7 @@ export default class ItemModalPresenter extends Component {
             </View>
             <View style={Styles.scrollItem} >
               <TagInput 
-                name={'Tags'}
+                name={I18n.t('tags')}
                 tags={this.props.tags}
                 currentTags={this.state.tags}
                 ref={(tagInput) => { this.tagInput = tagInput }}
